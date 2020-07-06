@@ -219,6 +219,8 @@ Non sei d'accordo? Benissimo. Allora non usare codice rilasciato sotto licenza G
 
 ## Impatto sui giocatori
 
+![wow-dranei-crying](https://thedaytonight.com/wp-content/uploads/2013/01/a-sad-wow-player-289x300.jpg)
+
 Mi rendo conto perfettamente che tutta questa storia che parla di eticita' e licenze varie interessa davvero poco al giocatore medio di World of Warcraft.
 I giocatori vogliono tendenzialmente giocare in un server stabile e ben fixato, gliene frega davvero poco se questo server collabora con l'open source o meno.
 
