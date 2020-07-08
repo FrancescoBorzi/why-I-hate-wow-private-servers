@@ -190,7 +190,7 @@ Alcuni server privati fixano davvero roba per conto loro. Spesso hanno team di s
 
 La maggior parte di loro non condivide questi fix con la comunità' di sviluppo.
 
-Beh, la licenza GPL del software che state usando per far girare il vostro serverino vi impone di condividerli, ma voi non lo fate. Quindi vi odio lo stesso.
+Beh, la licenza GPL del software che state usando per far girare il vostro server vi impone di condividerli, ma voi non lo fate. Quindi vi odio lo stesso.
 
 ![pinocchio](https://ilbuonvecchiolibro.files.wordpress.com/2017/10/disegno-di-pinocchio-bugie-naso-lungo-colorato-600x600.jpg?w=600&h=300&crop=1)
 
@@ -199,12 +199,12 @@ Beh, la licenza GPL del software che state usando per far girare il vostro serve
 
 ### "Li mantengo privati per rendere il mio server un posto speciale, migliore rispetto agli altri"
 
-Ok campione. Prova a riflettere su questo: se TUTTI i dev avessero fatto come te, non esisteresti nemmeno tu ed il tuo serverino.
+Ok campione. Prova a riflettere su questo: se TUTTI i dev avessero fatto come te, non esisteresti nemmeno tu ed il tuo server privato.
 
 perché? Semplicemente perché non esisterebbe nè MaNGOS (ne TrinityCore, AzerothCore, etc...). 
 Questi progetti esistono proprio grazie a dev che, a differenza tua, hanno condiviso il proprio codice.
 
-A quel punto stavamo ancora senza emulatori di WoW decenti ed il tuo serverino non potevi proprio aprirtelo.
+A quel punto stavamo ancora senza emulatori di WoW decenti ed il tuo server privato non potevi proprio aprirtelo.
 
 
 ### "Se condividessi i miei fix, i server competitor se li ruberebbero"
