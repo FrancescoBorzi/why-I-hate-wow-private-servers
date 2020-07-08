@@ -153,7 +153,7 @@ Come risultato, i players di entrambi i server sono meno contenti rispetto allo 
 
 In realta' il codice di MaNGOS/TrinityCore (e progetti derivati) viene rilasciato sotto licenza [GNU GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
-Tale licenza, detto in parole semplice, dice la seguente: usa pure il codice per fare quello che ti pare, senza pagare nulla, a patto che qualsiasi modifica al codice originale, venga anch'essa rilasciata sotto la stessa licenza.
+Tale licenza, detto in parole semplici, dice la seguente: usa pure il codice per fare quello che ti pare, senza pagare nulla, a patto che qualsiasi modifica al codice originale, venga anch'essa rilasciata sotto la stessa licenza.
 Praticamente la licenza di questi progetti imporrebbe a chi li utilizza di pubblicare qualsiasi modifica al core.
 
 Ovviamente la maggior parte dei server privati usa questa licenza come **carta igienica**. Altrimenti non dovrebbero esistere server privati "più fixati" rispetto ad altri.
