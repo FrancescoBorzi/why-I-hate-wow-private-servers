@@ -252,8 +252,8 @@ Come risultato, tutte le liste dei contributori di questi progetti sono assoluta
 
 Per esempio:
 
-- Elenco ufficiale dei contributori di MaNGOS: https://github.com/TrinityCore/TrinityCore/blob/3.3.5/AUTHORS
-- Elenco ufficiale dei contributori di TrinityCore https://github.com/cmangos/mangos-wotlk/blob/master/AUTHORS.md
+- Elenco ufficiale dei contributori di MaNGOS: https://github.com/cmangos/mangos-wotlk/blob/master/AUTHORS.md
+- Elenco ufficiale dei contributori di TrinityCore https://github.com/TrinityCore/TrinityCore/blob/3.3.5/AUTHORS
 - Elenco ufficiale dei contributori di AzerothCore https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors
 
 PS: l'autore di questo articolo è presente in tutti e 3 questi elenchi
@@ -279,5 +279,4 @@ O quantomeno, evitare quei server che spacciano il lavoro altrui per proprio, ri
 - https://www.gnu.org/philosophy/free-sw.it.html
 - https://www.linux.it/softwarelibero
 - https://www.fsf.org/it/cosa-e-il-software-libero
-
 
