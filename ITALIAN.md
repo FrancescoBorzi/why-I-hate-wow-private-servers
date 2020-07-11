@@ -192,7 +192,7 @@ La maggior parte di loro non condivide questi fix con la comunità' di sviluppo.
 
 Beh, la licenza GPL del software che state usando per far girare il vostro server vi impone di condividerli, ma voi non lo fate. Quindi vi odio lo stesso.
 
-![pinocchio](https://ilbuonvecchiolibro.files.wordpress.com/2017/10/disegno-di-pinocchio-bugie-naso-lungo-colorato-600x600.jpg?w=600&h=300&crop=1)
+![pinocchio](https://www.21secolo.news/wp-content/uploads/2020/02/pinocchio4-kTJG-U3010254149790Ae-1224x916@Corriere-Web-Sezioni-593x443-1.jpg)
 
 ## Le "giustificazioni" dei server privati
 
