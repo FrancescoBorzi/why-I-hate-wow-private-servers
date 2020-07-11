@@ -4,7 +4,7 @@
 
 Perché i server privati continuano ad essere pieni di **bug**, nonostante esistono da tantissimi anni?
 
-![wow-facepalm](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-facepalm.jpg)
+![wow-facepalm](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-facepalm.jpeg)
 
 No, non si tratta della solita ramanzina sul copyright, la Blizzard, etc...
 Voglio solo spiegarvi perché odio la maggior parte de server privati di [World of Warcraft](https://en.wikipedia.org/wiki/World_of_Warcraft).
