@@ -1,5 +1,7 @@
 # Perché odio la maggior parte dei server privati di WoW
 
+*Di Francesco Borzi' aka Shin*
+
 Perché i server privati continuano ad essere pieni di **bug**, nonostante esistono da tantissimi anni?
 
 ![wow-facepalm](http://pureawesome.net/wow/110404_facepalm.jpg)
