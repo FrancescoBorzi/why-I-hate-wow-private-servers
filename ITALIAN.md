@@ -24,7 +24,7 @@ Rimane però questo fatto: **odio la maggior parte dei server privati e ho tanta
 
 ## Tecnicismi
 
-![wow-sleeping](https://vignette.wikia.nocookie.net/wowwiki/images/2/22/Sleeping_undead.jpg/revision/latest/scale-to-width-down/180?cb=20050308164208)
+![wow-sleeping](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-sleeping.jpg)
 
 Per spiegarvi il mio punto di vista è necessaria una piccola parentesi tecnica riguardante il funzionamento di WoW, che proverò a spiegare con parole semplici.
 
@@ -38,13 +38,13 @@ A livello di software, ci sono due programmi che sono gli attori principali di q
 
 Il funzionamento è molto semplice: tutti i Client (i giocatori) si collegano ad un Server per poter interagire tra loro. Il client conosce l'indirizzo del server perché lo ha memorizzato dentro il famoso file "**realmlist.wtf**" (ecco perché per cambiare server bisogna modificare questo file).
 
-![client-server](https://static.wixstatic.com/media/132132_a149ee7a94d04ea1b5ea8295b73bb939.jpg/v1/fill/w_421,h_310,al_c,lg_1,q_80/132132_a149ee7a94d04ea1b5ea8295b73bb939.webp)
+![client-server](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/client-server.png)
 
 ### Come funzionano i server privati
 
 Quando si gioca nei server privati, il principio è esattamente lo stesso. La differenza sta nei programmi utilizzati.
 
-![wow-defias](http://pureawesome.net/wow/2016/160419_defias02a.jpg)
+![wow-defias](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-defias.jpg)
 
 **CLIENT**. Tutti hanno accesso al client originale di World of Warcraft. è possibile ottenerlo banalmente acquistandolo o scaricandolo da internet. Questo programma è esattamente lo stesso che si userebbe per giocare nel server ufficiale. Ovviamente server privati diversi hanno versioni del client diverse, ma sono sempre versioni del client originale. Per questo basta fare una piccola modifica al file "realmlist.wtf", sostituire l'indirizzo del server offy con quello di un server privato, ed il gioco è fatto.
 
@@ -52,7 +52,7 @@ Quando si gioca nei server privati, il principio è esattamente lo stesso. La di
 
 ### Reverse engineering
 
-![reverse-engineering](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSq8szLp9BwRzL_q5cjSaWAkvTmM0AvbjqC0A&usqp=CAU)
+![reverse-engineering](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/reverse-engineering.jpeg)
 
 Tutti i software che fanno girare i server privati sono state realizzati con la tecnica del "reverse engineering". Che in parole povere equivale a dire "provo a scrivere un programma che imita il funzionamento di un altro programma, senza però poter avere accesso al codice originale".
 
@@ -73,7 +73,7 @@ Chi crea le applicazioni software che fanno girare i server privati di WoW (comu
 
 ### Complessità
 
-![complex](https://static1.smartbear.co/smartbear/media/blog/wp/code-complexity-600x348.jpg)
+![complex](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/complex.jpg)
 
 Non c'è bisogno di essere esperti per comprendere che scrivere un applicazione server per un MMORPG della portata di World of Warcraft non è certamente un gioco da ragazzi.
 
@@ -99,7 +99,7 @@ Nell'ambito dei server privati, l'open source gioca un ruolo fondamentale.
 I giocatori più veterani si ricorderanno che un tempo nei server privati la qualità di gioco era davvero pessima. Non funzionava quasi niente.
 Ad esempio, se eri un rogue in stealth potevi essere targettato da chiunque avesse scritto `/target Tuonome`. Indovinate che classe era il mio primo personaggio...
 
-![mangos-logo](https://azerothshard.org/wp-content/uploads/2015/10/MaNGOS_Logo.gif)
+![mangos-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/mangos-logo.gif)
 
 La vera rivoluzione fu [MaNGOS](https://it.wikipedia.org/wiki/MaNGOS), un progetto open source creato nel 2005, il cui scopo era fornire un'applicazione server per World of Warcraft.
 La grande novità di MaNGOS, che fu anche il suo punto di forza, fu proprio il fatto che essendo un’applicazione open source, il suo codice veniva reso completamente pubblico, e qualunque utente da qualunque parte del mondo poteva studiarlo e proporre il proprio contributo (sia in termini di aggiunta o fix di meccaniche del gioco, ma anche in termini di segnalazione dei bug presenti).
@@ -108,14 +108,14 @@ Solo in questo modo, grazie ai contributi di tantissimi volontari di diverse naz
 
 Nel 2009 nasceva [TrinityCore](https://www.trinitycore.org/), basato su MaNGOS, altro progetto storicamente molto importante.
 
-![trinitycore-logo](https://azerothshard.org/wp-content/uploads/2015/10/trinitycore.png)
+![trinitycore-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/trinitycore-logo.png)
 
 Ad oggi, la stragrande maggioranza dei server privati girano su applicazioni basate su MaNGOS/TrinityCore.
 
 Negli anni sono nati [diversi progetti](http://mangosrumors.org/best-wow-emulator-2020/) open source basati sul codice di MaNGOS/TrinityCore, che variano principalmente in base alla versione di WoW supportata.
 Ad esempio [AzerothCore](https://www.azerothcore.org/) per la 3.3.5, [OregonCore](https://github.com/OregonCore) per la 2.4.3, [SkyFire](https://www.projectskyfire.org/) per la 5.4.3, [CMaNGOS](https://cmangos.net/) per Classic (e non solo), e molti altri... tutti basati su MaNGOS e/o TrinityCore.
 
-![azerothcore-authserver](https://user-images.githubusercontent.com/18329778/41039336-5710165c-69c3-11e8-8631-0b6348a032c7.png)
+![azerothcore-authserver](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/azerothcore-authserver.png)
 
 ### Riepilogando
 
@@ -127,7 +127,7 @@ Banalmente, oggi chiunque abbia un minimo di dimestichezza col PC può riuscire 
 
 ## Open source vs server privati
 
-![alice-and-bob](https://blogs.airdropalert.com/wp-content/uploads/2018/11/alice_bob-300x169.jpg)
+![alice-and-bob](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/alice-and-bob.jpg)
 
 ### Scenario ipotetico
 
@@ -160,7 +160,7 @@ Praticamente la licenza di questi progetti imporrebbe a chi li utilizza di pubbl
 
 Ovviamente la maggior parte dei server privati usa questa licenza come **carta igienica**. Altrimenti non dovrebbero esistere server privati "più fixati" rispetto ad altri.
 
-![toilet-paper](https://image.freepik.com/free-photo/pyramid-made-out-toilet-paper-rolls_23-2148524935.jpg)
+![toilet-paper](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/toilet-paper.jpg)
 
 
 ## Le bugie dei server privati
@@ -194,7 +194,7 @@ La maggior parte di loro non condivide questi fix con la comunità' di sviluppo.
 
 Beh, la licenza GPL del software che state usando per far girare il vostro server vi impone di condividerli, ma voi non lo fate. Quindi vi odio lo stesso.
 
-![pinocchio](https://www.21secolo.news/wp-content/uploads/2020/02/pinocchio4-kTJG-U3010254149790Ae-1224x916@Corriere-Web-Sezioni-593x443-1.jpg)
+![pinocchio](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/pinocchio.jpeg)
 
 ## Le "giustificazioni" dei server privati
 
@@ -221,7 +221,7 @@ Non sei d'accordo? Benissimo. Allora non usare codice rilasciato sotto licenza G
 
 ## Impatto sui giocatori
 
-![wow-dranei-crying](https://thedaytonight.com/wp-content/uploads/2013/01/a-sad-wow-player-289x300.jpg)
+![wow-dranei-crying](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-dranei-crying.jpg)
 
 Mi rendo conto perfettamente che tutta questa storia che parla di eticita' e licenze varie interessa davvero poco al giocatore medio di World of Warcraft.
 I giocatori vogliono tendenzialmente giocare in un server stabile e ben fixato, gliene frega davvero poco se questo server collabora con l'open source o meno.
