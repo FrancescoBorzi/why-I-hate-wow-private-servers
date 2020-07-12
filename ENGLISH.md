@@ -31,7 +31,7 @@ In order to explain my point of view you need a small technical parenthesis conc
 
 At the software level, there are two programs that are the main actors of this game:
 
-- the **CLIENT APPLICATION**: it would be the "World of Warcraft" program that each player installs on their computer in order to access the game.
+- the **CLIENT APPLICATION**: the "World of Warcraft" program that each player installs on their computer in order to access the game.
 
 - the **SERVER APPLICATION**: it's the program that runs on server machines
 
