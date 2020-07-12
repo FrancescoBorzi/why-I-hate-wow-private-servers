@@ -45,7 +45,7 @@ When playing on private servers, the mechanism is exactly the same. The differen
 
 ![Wow-Defias](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-defias.jpg)
 
-**CLIENT**. Everyone has access to the original World of Warcraft client. you can easily get it by buying it or downloading it from the internet. This program is exactly the same that would be used to play on the official server. Obviously different private servers have different client versions, but they are always versions of the original client. You just need to make a small change to the "realmlist.wtf" file, replacing the address of the retail server address with the address of a private server, and you're done.
+**CLIENT**. Everyone has access to the original World of Warcraft client. You can easily get it by buying it or downloading it from the internet. This program is exactly the same that would be used to play on the official server. Obviously different private servers have different client versions, but they are always versions of the original client. You just need to make a small change to the "realmlist.wtf" file, replacing the address of the retail server address with the address of a private server, and you're done.
 
 **SERVER**. This is completely different. Nobody outside Blizzard has access to the original software that runs the official World of Warcraft servers. So these applications are completely different from the original one.
 
@@ -53,15 +53,15 @@ When playing on private servers, the mechanism is exactly the same. The differen
 
 ![Reverse engineering](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/reverse-engineering.jpeg)
 
-All the software that runs the private servers have been created with the "reverse engineering" technique. Which in simple terms it means "I try to write a program that imitates the behaviour of another program, without being able to access the original code".
+All the software that runs the private servers have been created with the "reverse engineering" technique. Which in simple terms it means "I try to write a program that imitates the behaviour of another program, without looking at the original code".
 
-The question now is who and when did they implement this software.
+The question now is: who and when did they implement this software?
 
 
 #### Parenthesis about the copyright
 
 *All copyrighted material (images, sounds, 3D models, logos, etc ...) is located inside the client application.
-The server application contains only numeric and textual values. Therefore, if used for educational purposes, it is perfectly legal.*
+The server application contains only numbers and texts. Therefore, if used for educational purposes, it is perfectly legal.*
 
 ## Unofficial WoW server applications
 
@@ -79,7 +79,7 @@ Blizzard is a large company with thousands of employees. Writing a program that 
 
 And it's not just a matter of complexity. Think also of very trivial but repetitive tasks, like adding every single NPC in the world, including every single item of its loot with its own percentage of chance, etc .. A huge job in short. Not to mention very complex tasks that require hours of study and testing, such as spell mechanics, boss mechanics, etc.
 
-In short .... not even the best programmer in the world would be able to do all this work alone.
+In short .... not even the best programmer in the world could be able to do all this work alone.
 
 Yet there are private servers, and the software that makes them run. And some private servers are now able to offer a game quality not far from the original one (here I refer mainly to the old expansions).
 
@@ -110,13 +110,13 @@ In 2009 [TrinityCore](https://www.trinitycore.org/) was born, based on MaNGOS, w
 As today, the vast majority of private servers run on MaNGOS/TrinityCore-based applications.
 
 Over the years, [different projects](http://mangosrumors.org/best-wow-emulator-2020/) were born, based on the MaNGOS/TrinityCore code, which mainly vary according to the supported WoW version.
-For example [AzerothCore](https://www.azerothcore.org/) for 3.3.5, [OregonCore](https://github.com/OregonCore) for 2.4.3, [SkyFire](https://www.projectskyfire.org/) for 5.4.3, [CMaNGOS](https://cmangos.net/) for Classic/TBC/WOTLK, and many others ... all based on MaNGOS and/or TrinityCore.
+For example [AzerothCore](https://www.azerothcore.org/) for 3.3.5, [OregonCore](https://github.com/OregonCore) for 2.4.3, [SkyFire](https://www.projectskyfire.org/) for 5.4.3, [CMaNGOS](https://cmangos.net/) for Classic/TBC/WOTLK, and many others ... All based on MaNGOS and/or TrinityCore.
 
 ![Azerothcore-authserver](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/azerothcore-authserver.png)
 
 ### Recap
 
-So the private servers we have reached the quality we enjoy today only thanks to the many contributors who over the years (from 2005 to today) have implemented more and more game features.
+So the private servers have reached the quality of today only thanks to the many contributors who over the years (from 2005 to today) have implemented more and more game features.
 
 Today any experienced PC user can easily install a WoW server, without even being a programmer.
 
@@ -137,7 +137,7 @@ Both Alice and Bob want to release a new content to their players, which has so 
 Alice and Bob work together and exchange their fixes. As a result, both of their servers will have perfectly fixed bosses `A`,` B` and `C`.
 In addition, Alice and Bob will join forces in order to work on `D` as well.
 
-As a result, the players on both servers are very happy because they play with completely fixed content.
+As a result, the players on both servers are very happy because they play a completely fixed content.
 
 ### In the real world
 
@@ -151,15 +151,15 @@ As a result, the players on both servers are less happy than in the previous sce
 Actually, the MaNGOS/TrinityCore code (and derivative projects) is released under the [GNU GPL license](https://en.wikipedia.org/wiki/GNU_General_Public_License).
 
 In simple words, this license says the following: use the code to do whatever you want, without paying anything, as long as any modification to the original code is also released under the same license.
-Practically the licese of these projects would require those who use them to publish any changes to the core.
+Basically the licese of these projects require those who use them to publish any changes to the public.
 
 Of course, most private servers use this license as **toilet paper**. Otherwise, there should be no private server that is "better fixed" than others.
 
 ![Toilet-paper](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/toilet-paper.jpg)
 
-## The lies of private servers
+## The lies of the private servers
 
-Here a collection of lies that the administrator of private servers keep telling to their players:
+Here a collection of lies that the administrators of many WoW private servers keep telling to their players:
 
 
 ### "We wrote this core"
@@ -169,7 +169,7 @@ Fake news. It doesn't matter how many changes "you" have made. However, you star
 Maybe you've made some improvements, but most of the code is still MaNGOS/TrinityCore's.
 
 Maybe you are really good and over time you have rewritten most of the code.
-Still, you started from MaNGOS. Without it, on day 1 you didn't even have the login feature working.
+Still, you started from MaNGOS. Without it, on day 1 you wouldn't even have got the login feature working.
 
 
 
@@ -199,7 +199,7 @@ Alright champ. Try to think about this: if ALL the developers did like you, neit
 Why? Simply because neither MaNGOS (nor TrinityCore, AzerothCore, etc ...) would exist.
 These projects exist thanks to developers who, unlike you, shared their code.
 
-At that point we were still without decent WoW emulators and you just couldn't open your private server. Because there wouldn't be any software available.
+If all devs kept their code private, we would have no decent WoW emulator and you just couldn't open your private server. Because there wouldn't be any software available.
 
 
 ### "If I shared my fixes, the competition would steal them"
@@ -214,28 +214,29 @@ Oh you don't agree? Very well. Then don't use GPL licensed code and write your o
 
 ![Wow-Dranei-crying](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-dranei-crying.jpg)
 
-I realize that this whole story that talks about ethics and licenses matters very little to the average World of Warcraft player.
+I realise that this whole story about ethics and licenses matters very little to the average World of Warcraft player.
 Players just want to play on a stable and well-fixed server, they don't care much whether this server collaborates with open source or not.
 
 But... try for a moment to see it from another perspective.
 
-Developers of the open source project (MaNGOS, TrinityCore, AzerothCore, etc ...) basically care very little about what private servers do.
+Developers of the open source projects (MaNGOS, TrinityCore, AzerothCore, etc ...) basically care very little about what private servers do.
 Sure, as a developer it pisses you off to see some random server administrator taking credits for your work, but in the end it doesn't change your life.
+Many open source developers just do it for fun and educational purposes.
 
 Those that would really have different lives, if ALL private servers collaborated with open source, would be the players.
 
-Oh yes, because if this were the case, ALL private servers would have a game quality far superior to what we enjoy today. In all expansions.
+Oh yes, because if this was the case, ALL private servers would have a game quality far superior to what we enjoy today. In all expansions.
 
-See for example the case of Alice and Bob before. That is a very simplified example, just to explain the concept.
+See for example the case of Alice and Bob before, which is a very simplified example.
 
 However, the reality is just that: there are many private servers around the world, each of them always works on the same things, racing to do them sooner and better.
 If they collaborated with each other instead, they would avoid doing unnecessary work and would have more time and workforce. So they would surely be able to achieve much more.
 
-Parenthesis: the quality (and competitions between) private servers should not be measured (only) in terms of fixes, but on factors such as the skill of its administration in maintaining it. The quality of the community also plays a fundamental role, just as it happens in blizzard servers (which from the technical perspective are all the same).
+*Parenthesis: the quality (and competition between) private servers should not be (only) about of fixes, but also about other factors such as the skill of its administration in maintaining it. The quality of the community also plays a fundamental role, just as it happens in blizzard servers (which from the technical perspective are all the same).*
 
 If a private server closes, and its developers have not shared their work, that work is lost forever.
 
-## Denying lies
+## Exposing lies
 
 ### Official authors list
 
