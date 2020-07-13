@@ -17,7 +17,9 @@ A 15 anni iniziai a chiedermi come funzionassero davvero i server privati e come
 
 A quei tempi non avevo ancora idea di quante soddisfazioni avrei avuto e quante cose avrei imparato grazie a questo mondo magico.
 
-Sembrerà strano, ma questo mondo mi affascina tantissimo anche adesso, da adulto. Mi ha affascinato così tanto da dedicarci pure la mia tesi di laurea di Informatica.
+Sembrerà strano, ma questo mondo mi affascina tantissimo anche adesso, da adulto. Mi ha affascinato così tanto da dedicarci pure [la mia tesi di laurea di Informatica](https://community.trinitycore.org/topic/13025-just-thank-you-wow-emulation).
+
+![wow-emulation-thesis](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-emulation-thesis.jpeg)
 
 Rimane però questo fatto: **odio la maggior parte dei server privati e ho tanta voglia di spiegarvi il perché.**
 

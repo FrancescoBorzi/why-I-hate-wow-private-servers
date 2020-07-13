@@ -11,13 +11,15 @@ I just want to explain why I hate most of the [World of Warcraft](https://en.wik
 
 ## Introduction
 
-I’ve been fascinated by WOW emulation since I was 14. I remember that the first time I joined one of these “special realms”, there were a lot of bugs, but you could play for free at least. You know, I didn’t have a red cent at that time, so I had no alternative. 
+I’ve been fascinated by WoW emulation since I was 14. I remember that the first time I joined one of these “special realms”, there were a lot of bugs, but you could play for free at least. You know, I didn’t have a red cent at that time, so I had no alternative. 
 
 At 15 I began wondering how private servers actually worked and could existt, especially from a technical perspective. Did someone steal the code from [Blizzard](https://en.wikipedia.org/wiki/Blizzard_Entertainment) maybe? I had no idea  – I was so young and inexperienced at that time! Despite that, I started messing around and, with the help of an old friend of mine (Fabio), I finally managed to install a WoW server on my own PC.
 
 Back then I couldn’t even imagine the amount of satisfaction I would have got and how many things I would have learned thanks to this magical world.
 
-It may sound weird, but this world still fascinates me now, as an adult, at the point that I dedicated an entire Master’s Degree thesis in Computer Science to this topic.
+It may sound weird, but this world still fascinates me now, as an adult, at the point that I dedicated an entire [Master’s Degree thesis in Computer Science to this topic](https://community.trinitycore.org/topic/13025-just-thank-you-wow-emulation).
+
+![wow-emulation-thesis](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-emulation-thesis.jpeg)
 
 But still: **I hate most of the private servers and I really want to explain why.**
 
