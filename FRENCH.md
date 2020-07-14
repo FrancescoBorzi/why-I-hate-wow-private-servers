@@ -2,7 +2,7 @@
 
 *Écrit par Francesco Borzi' alias Shin*
 
-Pourquoi y a-t-il encore tant de bugs sur les serveurs privés de WoW, alors qu'ils existent depuis tant d'années ?
+Pourquoi y a-t-il encore tant de bugs sur les serveurs privés WoW, alors qu'ils existent depuis tant d'années ?
 
 ![Wow-facepalm](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-facepalm.jpeg)
 
@@ -12,7 +12,7 @@ Je veux juste vous expliquer pourquoi je déteste la plupart des serveurs privé
 
 ## Introduction
 
-Je suis fasciné par l'émulation de WoW depuis que j'ai 14 ans. 
+Je suis fasciné par l'émulation WoW depuis que j'ai 14 ans. 
 Je me souviens que la première fois que j'ai rejoint un de ces "royaumes spéciaux", il y avait beaucoup de bugs, mais on pouvait au moins jouer gratuitement. 
 Vous savez, je n'avais pas un sou à l'époque, donc je n'avais pas d'alternative. 
 
