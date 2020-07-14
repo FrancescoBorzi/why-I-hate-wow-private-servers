@@ -72,7 +72,7 @@ La question qui se pose maintenant est la suivante : qui a mis en œuvre ce logi
 
 #### Parenthèse sur le droit d'auteur
 
-*Touest les ressources protégé par des droits d'auteur (images, sons, modèles 3D, logos, etc...) se trouve dans l'application du client.
+*Toutes les ressources sont protégé par des droits d'auteur (images, sons, modèles 3D, logos, etc...) se trouve dans l'application du client.
 L'application serveur ne contient que des chiffres et des textes. Par conséquent, si elle est utilisée à des fins éducatives, elle est parfaitement légale.*
 
 
