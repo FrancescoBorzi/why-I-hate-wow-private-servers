@@ -205,9 +205,9 @@ If all devs kept their code private, we would have no decent WoW emulator and yo
 
 There is nothing to "steal". They can't "steal" that code because it doesn't "belong" to you. No, not even if you really wrote it.
 
-The MaNGOS GPL license is clear: you can use that code for free, provided that any modification of it MUST be made public.
+The open source philosophy is clear: you can use that code for free, provided that any modification of it MUST be made public.
 
-Oh don't you agree? Alright. Then don't use any GPL licensed code and write your own WoW emulator from scratch.
+Oh don't you agree? Alright. Then don't use any open source code and write your own WoW emulator from scratch.
 
 ## How this affect players
 
