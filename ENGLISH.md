@@ -13,7 +13,7 @@ I just want to explain why I hate most of the [World of Warcraft](https://en.wik
 
 I’ve been fascinated by WoW emulation since I was 14. I remember that the first time I joined one of these “special realms”, there were a lot of bugs, but you could play for free at least. You know, I didn’t have a red cent at that time, so I had no alternative. 
 
-At 15 I began wondering how private servers actually worked and could existt, especially from a technical perspective. Did someone steal the code from [Blizzard](https://en.wikipedia.org/wiki/Blizzard_Entertainment) maybe? I had no idea  – I was so young and inexperienced at that time! Despite that, I started messing around and, with the help of an old friend of mine (Fabio), I finally managed to install a WoW server on my own PC.
+At 15 I began wondering how private servers actually worked and could exist, especially from a technical perspective. Did someone steal the code from [Blizzard](https://en.wikipedia.org/wiki/Blizzard_Entertainment) maybe? I had no idea  – I was so young and inexperienced at that time! Despite that, I started messing around and, with the help of an old friend of mine (Fabio), I finally managed to install a WoW server on my own PC.
 
 Back then I couldn’t even imagine the amount of satisfaction I would have got and how many things I would have learned thanks to this magical world.
 
@@ -27,7 +27,7 @@ But still: **I hate most of the private servers and I really want to explain why
 
 ![Wow-sleeping](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-sleeping.jpg)
 
-In order to understand my point of view, I need to dwell on a small technical parenthesis about WoW working processes, which I will try to put in simple words.
+In order to make you understand my point of view, I need to dwell on a small technical parenthesis about WoW working processes, which I will try to put in simple words.
 
 ### How the original World of Warcraft works
 
@@ -55,15 +55,15 @@ When playing on private servers, the principle  is exactly the same. The differe
 
 ![Reverse engineering](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/reverse-engineering.jpeg)
 
-Every software that runs private servers have been created through the "reverse engineering" technique, which in simple words it means "I try to write a program that imitates the behaviour of another program, without looking at the original code".
+Every software that runs private servers have been created through the "reverse engineering" technique, which, in simple words, means "I try to write a program that imitates the behaviour of another program, without looking at the original code".
 
 The question now is: who implemented this software and when did it happen?
 
 
-#### Parenthesis about the copyright
+#### Digression about the copyright
 
-*All copyrighted material (images, sounds, 3D models, logos, etc ...) is located inside the client application.
-The server application contains only numbers and texts. Therefore, if used for educational purposes, it is perfectly legal.*
+*The entire copyrighted material (images, sounds, 3D models, logos, etc ...) is located inside the client application.
+The server application contains only numbers and texts. Therefore, it is absolutely legal if you use it for educational purposes.*
 
 ## Unofficial WoW server applications
 
@@ -96,14 +96,14 @@ Just to make it simple: an open source program is a program whose code is public
 In the context of private servers, the open source plays a fundamental role.
 
 Some veteran gamers may remember that once the game quality on private servers was really bad. Almost nothing worked.
-For example, if you were a rogue in stealth you could be targeted by anyone who wrote `/target Yourname`. Guess what class was my first character ...
+For example, if you were a rogue in stealth you could be targeted by anyone who wrote `/target Yourname`. Guess which class I chose for my first character ...
 
 ![Mangos-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/mangos-logo.gif)
 
 The real revolution was [MaNGOS](https://it.wikipedia.org/wiki/MaNGOS), an open source project created in 2005, whose purpose was to provide a server application for World of Warcraft.
-The big news of MaNGOS, which was also its strong point, was the fact that being an open source application, its code was made completely public, and any user from anywhere in the world could study it and offer its own contribution (both in terms of adding or fixing game mechanics, but also in terms of reporting bugs).
+The great news of MaNGOS, as well as its strenght, was the fact that as an open source application, its code was completely public, and any user from all over the world could study it and offer their own contribution (both in terms of adding or fixing game mechanics, but also in terms of reporting bugs).
 
-Only in this way, thanks to the contributions of many volunteers of different nationalities, it was possible to develop a server application capable of emulating World of Warcraft ensuring a quality of a certain level.
+Only in this way, thanks to the contribution of many volunteers of different nationalities, it was possible to develop a server application capable of emulating World of Warcraft with a higher game quality.
 
 In 2009 another important project was born [TrinityCore](https://www.trinitycore.org/), based on MaNGOS.
 
@@ -209,7 +209,7 @@ The open source philosophy is clear: you can use that code for free, provided th
 
 Oh don't you agree? Alright. Then don't use any open source code and write your own WoW emulator from scratch.
 
-## How this affect players
+## How this affects players
 
 ![Wow-Dranei-crying](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-dranei-crying.jpg)
 
@@ -250,7 +250,7 @@ PS: you can find the author of this article in all these lists
 
 ### Official commits list
 
-Any open source project (generally hosted on GitHub) has the list of commits realised by the different develoers. For each commit, both the author and the date are there.
+Any open source project (generally hosted on GitHub) has the list of commits realised by the different developers. For each commit, both the author and the date are there.
 
 It is very easy to verify this information, just open the official repository of any emulator. Google for example "TrinityCore github" or "AzerothCore github" and just have a look.
 
@@ -268,3 +268,8 @@ Or, at least, avoid those servers that peddle other people's work on their own, 
 
 - https://www.gnu.org/software/software.en.html
 - https://www.fsf.org/about/what-is-free-software
+
+
+## Thanks
+
+Special thanks to *Laura Bartiromo*
