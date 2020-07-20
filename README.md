@@ -5,10 +5,10 @@ If you want to know more about WoW emulation or just want to chat with me, join 
 
 This article is available in:
 
-- [ENGLISH](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/ENGLISH.md)
-- [ITALIAN](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/ITALIAN.md)
-- [FRENCH](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/FRENCH.md)
-- [SPANISH](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/SPANISH.md)
+- 🇬🇧 [ENGLISH](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/ENGLISH.md)
+- 🇮🇹 [ITALIAN](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/ITALIAN.md)
+- 🇫🇷 [FRENCH](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/FRENCH.md)
+- 🇪🇸 [SPANISH](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/SPANISH.md)
 
 **More translations are welcome!** You can submit new languages via PR ;)
 
