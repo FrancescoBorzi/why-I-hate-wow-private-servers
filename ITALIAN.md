@@ -184,7 +184,7 @@ Ma siete comunque partiti da MaNGOS. Senza di esso al day 1 non vi funzionerebbe
 ### "Abbiamo fixato X"
 
 Nella stragrande maggioranza dei casi, nessuno di loro ha veramente fixato niente.
-Semplicemente aggiornando il loro core, scaricando i fix che provengono dalla comunita' open source.
+Semplicemente aggiornano il loro core, scaricando i fix che provengono dalla comunita' open source.
 Quindi state spacciando per vostri fix fatti da altri.
 
 
