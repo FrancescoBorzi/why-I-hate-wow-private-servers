@@ -238,9 +238,9 @@ Como resultado, todas las listas de contribuyentes de estos proyectos son absolu
 
 Por ejemplo:
 
-- Official list of MaNGOS contributors: https://github.com/cmangos/mangos-wotlk/blob/master/AUTHORS.md
-- Official list of TrinityCore contributors https://github.com/TrinityCore/TrinityCore/blob/3.3.5/AUTHORS
-- Official list of AzerothCore contributors https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors
+- Lista oficial de colaboradores de MaNGOS: https://github.com/cmangos/mangos-wotlk/blob/master/AUTHORS.md
+- Lista oficial de colaboradores de TrinityCore https://github.com/TrinityCore/TrinityCore/blob/3.3.5/AUTHORS
+- Lista oficial de colaboradores de AzerothCore https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors
 
 PD: puedes encontrar al autor de este artículo en todas estas listas
 
