@@ -2,18 +2,20 @@
 
 *Escrito por Francesco Borzi' aka Shin*
 
+*Editado e traduzido por Vhiper*
+
 Por que ainda existem tantos bugs nos servidores privados WoW, apesar de existirem há tantos anos?
 
 ![Wow-facepalm](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-facepalm.jpeg)
 
-Não se preocupe, esta não é a palestra habitual sobre direitos autorais da Blizzard.
+Não se preocupe, esta não é a conferência típica dos autores sobre a Blizzard.
 Eu só quero explicar porque odeio a maioria dos servidores privados [World of Warcraft](https://en.wikipedia.org/wiki/World_of_Warcraft).
 
 ## Introdução
 
 Fico fascinado com a emulação de WoW desde os 14 anos. Lembro-me de que na primeira vez que entrei em um desses "reinos especiais", havia muitos bugs, mas você podia jogar de graça, pelo menos. Sabe, eu não tinha um centavo vermelho na época, então não tinha alternativa.
 
-Aos 15 anos, comecei a me perguntar como os servidores privados realmente funcionavam e poderiam existir, especialmente do ponto de vista técnico. Alguém roubou o código da [Blizzard] (https://en.wikipedia.org/wiki/Blizzard_Entertainment) talvez? Eu não tinha ideia - eu era tão jovem e inexperiente na época! Apesar disso, comecei a brincar e, com a ajuda de um velho amigo meu (Fabio), finalmente consegui instalar um servidor WoW no meu próprio PC.
+Aos 15 anos, comecei a me perguntar como os servidores privados realmente funcionavam e poderiam existir, especialmente do ponto de vista técnico. Alguém roubou o código da [Blizzard](https://en.wikipedia.org/wiki/Blizzard_Entertainment) talvez? Eu não tinha ideia - eu era tão jovem e inexperiente na época! Apesar disso, comecei a brincar e, com a ajuda de um velho amigo meu (Fabio), finalmente consegui instalar um servidor WoW no meu próprio PC.
 
 Naquela época, eu nem conseguia imaginar a quantidade de satisfação que teria e quantas coisas teria aprendido graças a este mundo mágico.
 
@@ -33,11 +35,11 @@ Para fazer você entender meu ponto de vista, preciso me concentrar em um pequen
 
 No nível do software, existem dois programas que podem ser considerados os principais atores deste jogo:
 
-- O **APLICATIVO DO CLIENTE** - que é o programa "World of Warcraft" real instalado por cada jogador em seu computador para acessar o jogo;
+- O **APLICATIVO DO CLIENTE** - que é o programa **World of Warcraft** real instalado por cada jogador em seu computador para acessar o jogo;
 
 - O **APLICATIVO DO SERVIDOR**: que é o programa que é executado nas máquinas do servidor.
 
-O processo é muito simples: todos os Clientes (jogadores) se conectam a um Servidor para interagir uns com os outros. O cliente conhece o endereço do servidor, pois ele é armazenado no famoso arquivo "**realmlist.wtf**" (é por isso que você tem que modificar este arquivo para mudar para outro servidor).
+O processo é muito simples: todos os Clientes (jogadores) se conectam a um Servidor para interagir uns com os outros. O cliente conhece o endereço do servidor, pois ele é armazenado no famoso arquivo **realmlist.wtf** (é por isso que você tem que modificar este arquivo para mudar para outro servidor).
 
 ![Cliente-servidor](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/client-server.png)
 
@@ -47,7 +49,7 @@ Ao jogar em servidores privados, o princípio é exatamente o mesmo. A diferenç
 
 ![Wow-Defias](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-defias.jpg)
 
-**CLIENTE**. Todo mundo tem acesso ao cliente original do World of Warcraft. Você pode facilmente obtê-lo comprando-o ou baixando-o on-line. Este programa é exatamente o que você usaria para jogar no servidor oficial. Obviamente, diferentes servidores privados têm versões diferentes de clientes, mas eles sempre se referem ao cliente original. Você só precisa fazer uma pequena alteração no arquivo "realmlist.wtf", substituindo o endereço do endereço do servidor de varejo por o de um servidor privado. É isso, é isso.
+**CLIENTE**. Todo mundo tem acesso ao cliente original do World of Warcraft. Você pode facilmente obtê-lo comprando-o ou baixando-o on-line. Este programa é exatamente o que você usaria para jogar no servidor oficial. Obviamente, diferentes servidores privados têm versões diferentes de clientes, mas eles sempre se referem ao cliente original. Você só precisa fazer uma pequena alteração no arquivo **realmlist.wtf**, substituindo o endereço do endereço do servidor de varejo por o de um servidor privado. É isso, é isso.
 
 **SERVER**. Isto é completamente diferente. Ninguém fora da Blizzard tem acesso ao software original que executa os servidores oficiais do World of Warcraft. Portanto, essas aplicações são completamente diferentes das originais.
 
@@ -67,7 +69,7 @@ O aplicativo do servidor contém apenas números e textos. Portanto, é absoluta
 
 ## Aplicativos não oficiais do servidor WoW
 
-Quem cria os aplicativos de software que executam os servidores privados do WoW (comumente chamados de "emuladores")? E como eles fizeram isso?
+Quem cria os aplicativos de software que executam os servidores privados do WoW (comumente chamados de **emuladores**)? E como eles fizeram isso?
 
 
 
@@ -75,7 +77,7 @@ Quem cria os aplicativos de software que executam os servidores privados do WoW 
 
 ![Complexo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/complex.jpg)
 
-Você não precisa ser um especialista para entender que escrever um aplicativo de servidor para um MMORPG com um escopo tão grande como World of Warcraft certamente não é brincadeira de criança.
+Você não precisa ser um especialista para entender que escrever um aplicativo de servidor para um **MMORPG** com um escopo tão grande como World of Warcraft certamente não é brincadeira de criança.
 
 A Blizzard é uma grande empresa com milhares de funcionários. Escrever um programa que "imita" o funcionamento de seu aplicativo de servidor certamente não é trivial ou viável para um único indivíduo (ou um pequeno grupo de programadores).
 
@@ -96,7 +98,7 @@ Só para simplificar: um programa de código aberto é um programa cujo código 
 No contexto dos servidores privados, o código aberto desempenha um papel fundamental.
 
 Alguns jogadores veteranos podem lembrar que uma vez que a qualidade do jogo em servidores privados era muito ruim. Quase nada funcionou.
-Por exemplo, se você fosse um Rogue em Modo [stealth] você poderia ser alvo de qualquer um que escreveu '/target Yourname'. Adivinha qual classe escolhi para o meu primeiro personagem...
+Por exemplo, se você fosse um Rogue em modo invisível [stealth] você poderia ser alvo de qualquer um que escreveu '/target Yourname'. Adivinha qual classe escolhi para o meu primeiro personagem...
 
 ![Mangos-logotipo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/mangos-logo.gif)
 
@@ -129,22 +131,22 @@ Hoje, qualquer usuário experiente de PC pode facilmente instalar um servidor Wo
 ### Cenário hipotético
 
 Suponha que Alice e Bob tenham um servidor privado cada um, e vamos supor que eles estão na mesma versão do jogo.
-Alice e Bob querem lançar um novo conteúdo para seus jogadores, que foi fechado até agora porque os chefes `A`,` B`, `C` E `D` são bastante bugados.
+Alice e Bob querem lançar um novo conteúdo para seus jogadores, que foi fechado até agora porque os chefes `A`,` B`, `C` e `D` são bastante bugados.
 
-- Alice é uma desenvolvedora muito boa e pode corrigir ambos os chefes `A` E `B`
+- Alice é uma desenvolvedora muito boa e pode corrigir ambos os chefes `A` e `B`
 - Bob ainda é um iniciante e só corrige o chefe `C`
 
 ### Em um mundo ideal
 
-Alice e Bob trabalham juntos e trocam suas correções. Como resultado, ambos os seus servidores terão chefes perfeitamente fixos `A`,` B` E `C`.
+Alice e Bob trabalham juntos e trocam suas correções. Como resultado, ambos os seus servidores terão chefes perfeitamente fixos `A`,` B` e `C`.
 Além disso, Alice e Bob vão unir forças para trabalhar em `D` também.
 
 Como resultado, os jogadores de ambos os servidores estão muito felizes porque jogam um conteúdo completamente fixo.
 
 ### No mundo real
 
-Alice e Bob são rivais e então travam uma guerra um contra o outro. No servidor de Alice, apenas chefes `A` E `B` funciona. Enquanto no servidor do Bob apenas `C` funciona.
-Alguns jogadores mudam do servidor do Bob para o da Alice. O servidor do Bob fecha depois de um tempo. Alguns dos jogadores de servidor alice parar de jogar porque eles se cansam de sempre fazer apenas `A` E `B` porque `C` E `D` Não funciona.
+Alice e Bob são rivais e então travam uma guerra um contra o outro. No servidor de Alice, apenas chefes `A` e `B` funciona. Enquanto no servidor do Bob apenas `C` funciona.
+Alguns jogadores mudam do servidor do Bob para o da Alice. O servidor do Bob fecha depois de um tempo. Alguns dos jogadores de servidor alice parar de jogar porque eles se cansam de sempre fazer apenas `A` e `B` porque `C` e `D` não funciona.
 
 Como resultado, os jogadores de ambos os servidores estão menos felizes do que no cenário anterior. Alice ganhou mais dinheiro através de doações de jogadores do que Bob.
 
