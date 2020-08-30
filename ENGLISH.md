@@ -101,7 +101,7 @@ For example, if you were a rogue in stealth you could be targeted by anyone who 
 ![Mangos-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/mangos-logo.gif)
 
 The real revolution was [MaNGOS](https://it.wikipedia.org/wiki/MaNGOS), an open source project created in 2005, whose purpose was to provide a server application for World of Warcraft.
-The great news of MaNGOS, as well as its strenght, was the fact that as an open source application, its code was completely public, and any user from all over the world could study it and offer their own contribution (both in terms of adding or fixing game mechanics, but also in terms of reporting bugs).
+The great news of MaNGOS, as well as its strength, was the fact that as an open source application, its code was completely public, and any user from all over the world could study it and offer their own contribution (both in terms of adding or fixing game mechanics, but also in terms of reporting bugs).
 
 Only in this way, thanks to the contribution of many volunteers of different nationalities, it was possible to develop a server application capable of emulating World of Warcraft with a higher game quality.
 
