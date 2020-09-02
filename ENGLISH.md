@@ -184,7 +184,7 @@ Some private servers really fix stuff on their own. They often have dedicated de
 
 Most of them do not share these fixes with the development community.
 
-Well, the GPL license of the software you are using to run your server is asking you to share them, but you still keep it private. So I hate you anyway.
+Well, the community that gave (for free) the software you are using to run your server is asking you to share them, but you still keep it private. So I hate you anyway.
 
 ![Pinocchio](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/pinocchio.jpeg)
 
