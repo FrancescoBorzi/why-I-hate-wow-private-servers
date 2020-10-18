@@ -12,6 +12,7 @@ This article is available in:
 - 🇵🇹 [PORTUGUESE](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/PORTUGUESE.md)
 - 🇷🇺 [RUSSIAN](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/RUSSIAN.md)
 - 🇭🇺 [HUNGARIAN](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/HUNGARIAN.md)
+- 🇩🇪 [GERMAN](https://github.com/FrancescoBorzi/why-I-hate-wow-private-servers/blob/master/GERMAN.md)
 
 **More translations are welcome!** You can submit new languages via PR ;)
 
