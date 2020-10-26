@@ -92,7 +92,7 @@ Csak ezúton lehetett elérni - rengeteg különböző nemzetiségű önkéntés
 
 Mind a mai napig a legtöbb privát szerver MaNGOS/TrinityCore alapú emulátort használ.
 
-Az évek alatt több különböző project is születtett a különböző WoW kiegészítők megjelenésével, amik szintén MaNGOS/TrinityCore alapokon nyugszanak. Például: AzerothCore for 3.3.5, OregonCore for 2.4.3, SkyFire for 5.4.3, CMaNGOS for Classic/TBC/WotLK. És még sok másik. Mindegyik közös alapokon:  MaNGOS/TrinityCore.
+Az évek alatt több különböző project is születtett a különböző WoW kiegészítők megjelenésével, amik szintén MaNGOS/TrinityCore alapokon nyugszanak. Például: AzerothCore for 3.3.5, OregonCore for 2.4.3, SkyFire for 5.4.8, CMaNGOS for Classic/TBC/WotLK. És még sok másik. Mindegyik közös alapokon:  MaNGOS/TrinityCore.
 ![Azerothcore-authserver](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/azerothcore-authserver.png)
 
 ### Visszatekintés

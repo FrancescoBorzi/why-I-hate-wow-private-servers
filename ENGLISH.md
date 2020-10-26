@@ -112,7 +112,7 @@ In 2009 another important project was born [TrinityCore](https://www.trinitycore
 To date, the overwhelming majority of private servers run on MaNGOS/TrinityCore-based applications.
 
 Over the years, [different projects](http://mangosrumors.org/best-wow-emulator-2020/) were born, and they were based on the MaNGOS/TrinityCore code, which mainly vary according to the supported WoW version.
-For example [AzerothCore](https://www.azerothcore.org/) for 3.3.5, [OregonCore](https://github.com/OregonCore) for 2.4.3, [SkyFire](https://www.projectskyfire.org/) for 5.4.3, [CMaNGOS](https://cmangos.net/) for Classic/TBC/WOTLK, and many others ... All of them based on MaNGOS and/or TrinityCore.
+For example [AzerothCore](https://www.azerothcore.org/) for 3.3.5, [OregonCore](https://github.com/OregonCore) for 2.4.3, [SkyFire](https://www.projectskyfire.org/) for 5.4.8, [CMaNGOS](https://cmangos.net/) for Classic/TBC/WOTLK, and many others ... All of them based on MaNGOS and/or TrinityCore.
 
 ![Azerothcore-authserver](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/azerothcore-authserver.png)
 
