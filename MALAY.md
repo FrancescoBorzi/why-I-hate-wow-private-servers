@@ -112,7 +112,7 @@ Pada tahun 2009, satu lagi projek penting dilahirkan [TrinityCore](https://www.t
 Sehingga kini, sebilangan besar pelayan peribadi dijalankan pada aplikasi berasaskan MaNGOS/TrinityCore.
 
 Selama bertahun-tahun, [projek yang berbeza](http://mangosrumors.org/best-wow-emulator-2020/) telah dilahirkan, dan adalah berdasarkan kod MaNGOS/TrinityCore, yang berbeza mengikut versi WoW yang disokong.
-Contohnya [AzerothCore](https://www.azerothcore.org/) untuk 3.3.5, [OregonCore](https://github.com/OregonCore) untuk 2.4.3, [SkyFire](https://www.projectskyfire.org/) untuk 5.4.3, [CMaNGOS](https://cmangos.net/) untuk Classic/TBC/WOTLK, dan banyak lagi yang lain ... Semuanya berdasarkan MaNGOS dan/atau TrinityCore.
+Contohnya [AzerothCore](https://www.azerothcore.org/) untuk 3.3.5, [OregonCore](https://github.com/OregonCore) untuk 2.4.3, [SkyFire](https://www.projectskyfire.org/) untuk 5.4.8, [CMaNGOS](https://cmangos.net/) untuk Classic/TBC/WOTLK, dan banyak lagi yang lain ... Semuanya berdasarkan MaNGOS dan/atau TrinityCore.
 
 ![Azerothcore-authserver](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/azerothcore-authserver.png)
 
