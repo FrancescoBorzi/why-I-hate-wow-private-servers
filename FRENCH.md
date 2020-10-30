@@ -22,7 +22,7 @@ Malgré cela, j'ai commencé à faire des bêtises et, avec l'aide d'un vieil am
 
 À l'époque, je ne pouvais même pas imaginer le degré de satisfaction que j'aurais eu et le nombre de choses que j'aurais apprises grâce à ce monde magique.
 
-Cela peut sembler bizarre, mais ce monde me fascine encore aujourd'hui, à l'âge adulte, au point que j'y ai consacré toute une [thèse de maîtrise en informatique] (https://community.trinitycore.org/topic/13025-just-thank-you-wow-emulation).
+Cela peut sembler bizarre, mais ce monde me fascine encore aujourd'hui, à l'âge adulte, au point que j'y ai consacré toute une [thèse de maîtrise en informatique](https://community.trinitycore.org/topic/13025-just-thank-you-wow-emulation).
 
 ![wow-emulation-thesis](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-emulation-thesis.jpeg)
 
