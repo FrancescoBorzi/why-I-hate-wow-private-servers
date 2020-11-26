@@ -141,7 +141,7 @@ Blizzard - большая компания с тысячами сотрудни�
 который в основном варьируется в зависимости от поддерживаемой версии WoW.
 Например [AzerothCore](https://www.azerothcore.org/) для 3.3.5, 
 [OregonCore](https://github.com/OregonCore) для 2.4.3, 
-[SkyFire](https://www.projectskyfire.org/) для 5.4.3, 
+[SkyFire](https://www.projectskyfire.org/) для 5.4.8, 
 [CMaNGOS](https://cmangos.net/) для Classic/TBC/WOTLK и многих других .... 
 Все они основаны на MaNGOS и/или TrinityCore.
 
