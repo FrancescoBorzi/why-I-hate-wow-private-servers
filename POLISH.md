@@ -27,7 +27,7 @@ Niemniej, wciąz: **Nienawidzę większości prywatnych serwerów i bardzo chcę
 
 ![Wow-sleeping](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-sleeping.jpg)
 
-In order to make you understand my point of view, I need to dwell on a small technical parenthesis about WoW working processes, which I will try to put in simple words.
+Aby wytłumaczyć mój punkt widzenia, będę musiał wtrącić swoje trzy grosze o tym jak działa WoW. Postaram się to wytłumaczyć w kilku prostych słowach.
 
 ### Jak działa oryginalny World of Warcraft
 
@@ -47,7 +47,7 @@ Gdy grasz na serwerach prywatnych, zasada jest dokładnie taka sama. Różnica j
 
 ![Wow-Defias](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-defias.jpg)
 
-**KLIENT**. Każdy ma dostęp do oryginalnego klienta World of Warcraft. Możesz go łatwo zdobyć kupując go lub pobierać z internetu. Jest to ten sam program, z którego byś korzysta(ł/a) chcąc grać na oficjalnym serwerze. Rzecz jasna, różne serwery prywatne mają różne wersje klienta, ale zawsze odnoszą się do oryginalnego klienta gry. Musisz jedynie dokonać małej zmiany w pliku "realmlist.wtf" przez zmianę adresu oryginalnego serwera na adres serwera prywatnego. Tyle.
+**KLIENT**. Każdy ma dostęp do oryginalnego klienta World of Warcraft. Możesz go łatwo zdobyć kupując go lub pobierać z internetu. Jest to ten sam program, z którego byś korzysta(ł/ła) chcąc grać na oficjalnym serwerze. Rzecz jasna, różne serwery prywatne mają różne wersje klienta, ale zawsze odnoszą się do oryginalnego klienta gry. Musisz jedynie dokonać małej zmiany w pliku "realmlist.wtf" przez zmianę adresu oryginalnego serwera na adres serwera prywatnego. Tyle.
 
 **SERWER**. Tutaj sprawa ma się całkowicie inaczej. Nikt z poza Blizzarda nie ma dostępu do oryginalnego oprogramowania, na którym działają oficjalne serwery World of Warcraft. Więc te aplikacje są całkowicie inne niż oryginalna.
 
