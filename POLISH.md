@@ -99,115 +99,116 @@ Niektórzy gracze-weterani mogą pamiętać, że niegdyś jakość gry na prywat
 ![Mangos-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/mangos-logo.gif)
 
 Prawdziwą rewolucją okazał się [MaNGOS](https://it.wikipedia.org/wiki/MaNGOS), czyli open-sourceowy projekt powstały w 2005, którego celem było stworzenie serwera (aplikacji) World of Warcraft.
-The great news of MaNGOS, as well as its strength, was the fact that as an open source application, its code was completely public, and any user from all over the world could study it and offer their own contribution (both in terms of adding or fixing game mechanics, but also in terms of reporting bugs).
+Wspaniałą wiadomością o MaNGOS, poza jego siłą, był fakt że był on aplikacją otwartoźródłową. Jego kod był całkowicie publiczny i każdy użytkownik na świecie mógł przestudiować go i zaoferować swój wkład (zarówno w kontekście dodawania lub naprawy mechanik, ale także przy raportowaniu bugów).
 
-Only in this way, thanks to the contribution of many volunteers of different nationalities, it was possible to develop a server application capable of emulating World of Warcraft with a higher game quality.
 
-In 2009 another important project was born [TrinityCore](https://www.trinitycore.org/), based on MaNGOS.
+Jedynie w ten sposób, dzięki udziałowi wielu wolontariuszy z różnych krajów, było możliwe stworzenie aplikacji serwerowej, która będzie w stanie emulować World of Warcraft zapewniając wyższą jakość rozgrywki.
+
+W 2009 roku powstał inny, bazujący na MaNGOS, emulator - [TrinityCore](https://www.trinitycore.org/).
 
 ![Trinitycore-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/trinitycore-logo.png)
 
-To date, the overwhelming majority of private servers run on MaNGOS/TrinityCore-based applications.
+Do dziś dnia, znaczna większość prywatnych serwerów korzysta z oprogramowania bazującego na MaNGOS/TrinityCore.
 
-Over the years, [different projects](http://mangosrumors.org/best-wow-emulator-2020/) were born, and they were based on the MaNGOS/TrinityCore code, which mainly vary according to the supported WoW version.
-For example [AzerothCore](https://www.azerothcore.org/) for 3.3.5, [OregonCore](https://github.com/OregonCore) for 2.4.3, [SkyFire](https://www.projectskyfire.org/) for 5.4.8, [CMaNGOS](https://cmangos.net/) for Classic/TBC/WOTLK, and many others ... All of them based on MaNGOS and/or TrinityCore.
+Przez lata powstawały [różne projekty](http://mangosrumors.org/best-wow-emulator-2020/) i bazowały one na kodzie MaNGOS/TrinityCore, różniąc się głównie wspieraną wersją WoW. 
+Na przkład [AzerothCore](https://www.azerothcore.org/) dla 3.3.5, [OregonCore](https://github.com/OregonCore) dla 2.4.3, [SkyFire](https://www.projectskyfire.org/) dla 5.4.8, [CMaNGOS](https://cmangos.net/) dla Classic/TBC/WOTLK, oraz wiele innych... Bazujących na MaNGOS i/lub TrinityCore.
 
 ![Azerothcore-authserver](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/azerothcore-authserver.png)
 
-### Recap
+### Podsumowanie
 
-So the private servers have reached such a quality only thanks to the many contributors who have implemented more and more game features over the years (from 2005 to today).
+Prywatne serwery osiągnęły obecną jakość jedynie dzięki udziałowi wielu współautorom (contributors), którzy na przestrzeni lat (od 2005 do dzisiaj) zaimplementowali coraz więcej funkcjonalności.
 
-Today any experienced PC user can easily install a WoW server, without even being a programmer.
+Dzisiaj, każdy doświadczony użytkownik komputera, nie będący programistą może z łatwością zainstalować serwer WoW.
 
-## Open source vs private servers
+## Open source vs serwery prywatne
 
 ![Alice-and-bob](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/alice-and-bob.jpg)
 
-### Hypothetical scenario
+### Hipotetyczny scenariusz
 
-Suppose that Alice and Bob have a private server each, and let's assume they are on the same version of the game.
-Both Alice and Bob want to release a new content to their players, which has been closed so far because the bosses `A`,` B`, `C` and` D` are quite buggy.
+Załóżmy, że zarówno Alice i Bob mają swój prywatny serwer WoW. Załóżmy również, że korzystają z tej samej wersji gry.
+Zarówno Alice, jak i Bob chcą wypuścić nową zawartość (content) dla swoich graczy, która dotychczas była niedostępna bo bossy `A`, `B`, `C` oraz `D` były zbugowane.
 
-- Alice is a very good developer and can fix both bosses `A` and` B`
-- Bob is still a beginner and only fixes the boss `C`
+- Alice jest bardzo dobrą programistką i potrafi naprawić bossa `A` oraz `B`
+- Bob jest wciąż początkującym programistą i naprawił jedynie bossa `C`.
 
-### In an ideal world
+### W idealnym świecie
 
-Alice and Bob work together and exchange their fixes. As a result, both of their servers will have perfectly fixed bosses `A`,` B` and `C`.
-In addition, Alice and Bob will join forces in order to work on `D` as well.
+Alice i Bob pracują wspólnie i wymieniają się swoimi poprawkami. W wyniku czego, oba serwery mają w pełni działające bossy `A`, `B` oraz `C`.
+W dodatku, Alice i Bob połączą siły aby naprawić również bossa `D`.
 
-As a result, the players on both servers are very happy because they play a completely fixed content.
+Ostatecznie gracze na obu serwerach są zadowoleni, bo grają na w pełni naprawionym contencie.
 
-### In the real world
+### W świecie rzeczywistym
 
-Alice and Bob are rivals and so they wage war against each other. In Alice's server, only bosses `A` and` B` work. While in Bob's server only `C` works.
-Some players move from Bob's server to Alice's one. Bob's server closes after a while. Some of Alice's server players stop playing because they get tired of always doing only `A` and` B` because `C` and` D` don't work.
+Alice i Bob rywalizują ze sobą i ich serwery walczą między sobą. Na serwerze Alice działają jedynie bossy `A` i `B`. Tymczasem na serwerze Boba jedynie boss `C`.
+Niektórzy gracze z serwera Boba przenoszą się na serwer Alice. Sewer Boba zamyka się po jakimś czasie. Niektórzy gracze Alice przestali grać, ponieważ mieli dość robienia jedynie bossów `A` oraz `B`, ponieważ bossy `C` oraz `D` nie działają.
 
-As a result, the players on both servers are less happy than in the previous scenario. Alice made more money through player donations than Bob did.
+W wyniku powyższego, gracze na obu serwerach są mniej szczęśliwi niż w poprzednim scenariuszu. Alice zarabiła więcej pieniędzy poprzez dotacje, niż zarobił Bob.
 
-### The license of the WoW emulators
+### Licencja emulatorów WoWa
 
-Actually, the MaNGOS/TrinityCore code (and their derivated projects) is released under the [GNU GPL license](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+W zasadzie, kod MaNGOS/TrinityCore (oraz pochodzących od nich rpoejtków) jest wypuszczony pod [licencją GNU GPL](https://pl.wikipedia.org/wiki/GNU_General_Public_License).
 
-In simple words, this license says the following: use the code to do whatever you want, without paying anything, as long as any modification to the original code is also released under the same license.
-Basically, the license of these projects requires those who use them to publish any changes to the public.
+W uproszczeniu, treść licencji brzmi: używaj kodu jak ci się podoba, bez płacenia za niego, tak długo jak zmiany do tego kodu są wypuszczane pod tą samą licencją.
+Reasumując - licencja tych projektów wymaga od użytkowników by upublicznili i udostępnili swoje zmiany w kodzie.
 
-Of course, most private servers use this license as **toilet paper**. Otherwise, there should be no private server that is "better fixed" than others.
+Oczywiście, większość serwerów używa tej licencji jako **papieru toaletowego**. W przeciwnym wypadku, nie byłoby serwera "lepiej naprawionego" niż inne.
 
 ![Toilet-paper](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/toilet-paper.jpg)
 
-## The lies about the private servers
+## Kłamstwa o prywatnych serwerach
 
-Here it is a list of lies that the administrators of many WoW private servers keep telling to their players:
+Oto lista kłamstw, które powtarzają administratorzy prywatnych serwerów:
 
 
-### "We wrote this core"
+### "Napisaliśmy ten emulator"
 
-Fake news. It doesn't matter how many changes "you" made. However, you started with a MaNGOS-based project.
+Fake news. Nie ma znaczenia ile zmian "ty" zrobiłeś. Wszyscy zaczeliśmy od projektu bazującego na MaNGOS.
 
-Maybe you've made some improvements, but most of the code is still MaNGOS/TrinityCore's.
+Może napisales jakieś poprawki, ale większość kodu to wciąż MaNGOS/TrinityCore.
 
-Maybe you are really good and you have rewritten most of the code over the years. Still, you started from MaNGOS. Without it, on day 1 you wouldn't even have got the login feature working.
+Może jesteś naprawdę dobry i przepisałeś większość kodu przez ostatnie lata. Wciąż, zacząłeś od MaNGOSa. Bez niego, pierwszego dnia, nie miałbyś nawet działającego mechanizmu logowania.
 
-### "We have fixed X"
+### "Naprawiliśmy X"
 
-In the vast majority of cases, none of them has really fixed anything.
-They have just downloaded the fixes coming from the open source community and applied them to their core.
-Still they take all credits.
+W większości przypadków, nikt z nich niczego nie naprawił.
+Po prostu pobrali poprawki pochodzące od społeczności, która rozwija oprogramowanie open-source i zaaplikowali je do "swojego" emulatora.
+Niemniej, wciąż przypisują sobie wszystkie zasługi.
 
-### "We (really) fixed X"
+### "NAPRAWDĘ naprawiliśmy X"
 
-Some private servers really fix stuff on their own. They often have dedicated development teams that are paid with the money coming from players' donations.
+Niektóre serwery prywatne naprawdę naprawiają rzeczy samodzielnie. Mają często zespół deweloperski, który jest opłacany z dotacji pochodzących od graczy.
 
-Most of them do not share these fixes with the development community.
+Większość z nich nie dzieli się poprawkami z społecznością programistyczną.
 
-Well, the community that gave (for free) the software you are using to run your server is asking you to share them, but you still keep it private. So I hate you anyway.
+Cóż, społeczność która dała (za darmo) oprogramowanie, z którego korzystasz by prowadzić swój serwer, prosi cię byś się podzielił z nim, ale wciąż tego nie robisz. I tak cię nienawidzę.
 
 ![Pinocchio](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/pinocchio.jpeg)
 
-## The "justifications" of private servers
+## "Usprawiedliwiania" serwerów prywatnych
 
 
-### "I keep them private to make my server a special place, better than the others"
+### "Nie dzielę się nimi, bo chcę by mój serwer był wyjątkowy, lepszy niż inne"
 
-Alright champ. Try to think about this: if ALL the developers did like you, neither you nor your private server would exist.
+Fantastycznie Mistrzu. To teraz pomyśl o tym: jeśli WSZYSCY programiści zrobili tak jakty, to ani ty, ani twój praywatny serwer by nie istniały.
 
-Why? Simply because neither MaNGOS (nor TrinityCore, AzerothCore, etc ...) would exist.
-These projects exist thanks to developers who, unlike you, shared their code.
+Dlaczego? A dlatego, że ani MaNGOS (ani TrinityCore, AzerothCore, etc ...) by nie istniały.
+Te projekty istnieją dzięki programistom którzy, w przeciwieństwie do Ciebie, dzielą się swoim kodem.
 
-If all devs kept their code private, we would have no decent WoW emulator and you just couldn't open your private server, because there wouldn't be any software available.
+Jeśli wszyscy programiści by nie upubliczniali swojego kodu, to nie mielibyśmy żadnego sensownego emulatora WoWa, a ty byś nie mógł otworzyć swojego prywatnego serwera bo nie miałbyś na czym bazować.
 
 
-### "If I shared my fixes, the competition would steal them"
+### "Jeślu udostępnię swoje poprawki, to konkurencja je ukradnie"
 
-There is nothing to "steal". They can't "steal" that code because it doesn't "belong" to you. No, not even if you really wrote it.
+Tu nie ma co "kraść". Nie mogą "ukraść" tego kodu, bo on nie "należy" do Ciebie. Nie, nawet jeśli go to ty go napisałeś.
 
-The open source philosophy is clear: you can use that code for free, provided that any modification of it MUST be made public.
+Idea otwartego oprogramowania jest jasna: możesz korzystać z kodu za darmo, przy czym każda modyfikacja MUSI być publiczna.
 
-Oh don't you agree? Alright. Then don't use any open source code and write your own WoW emulator from scratch.
+Oh, nie zgadzasz się? W porządku. To nie używaj żadnego otwartoźródłowego oprogramowania i napisz swój emulator WoW od podstaw. 
 
-## How this affects players
+## W jaki sposób to wpływa na graczy
 
 ![Wow-Dranei-crying](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-dranei-crying.jpg)
 
