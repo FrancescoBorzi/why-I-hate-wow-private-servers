@@ -19,7 +19,7 @@ This article is available in the following languages:
 
 ### Disclaimer for fellow developers
 
-IF YOU ARE A WOW EMULATION ENTUSIAST, READ THIS BEFORE PROCEEDING:
+IF YOU ARE A WOW EMULATION ENTHUSIAST, READ THIS BEFORE PROCEEDING:
 
 What I am doing here is to explain things as simple as possible, so what you are going to read **might not be 100% technically accurate/detailed**, but I really did my best to put things in **simple words** in order to make it **understandable for non-developers**.
 
