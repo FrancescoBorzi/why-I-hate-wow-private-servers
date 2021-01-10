@@ -263,6 +263,9 @@ My advice is you play/support private servers that collaborate with open source,
 
 Or, at least, avoid those servers that peddle other people's work on their own, removing the credits from the original authors.
 
+**NEW:** in 2021 the new project [ChromieCraft](https://www.chromiecraft.com/about) has been launched, featuring a fully open-source server with a progressive-twink taste.
+
+![ChromieCraft logo](https://avatars1.githubusercontent.com/u/68329413?s=400&u=084b35243e0aed1becd6a67fa88717eb8c1674d8&v=4)
 
 ### Learn more about free software
 
