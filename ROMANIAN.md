@@ -164,7 +164,7 @@ Desigur, majoritatea serverelor private folosesc această licență ca ** hârti
 Aici este o listă de minciuni pe care administratorii multor servere private WoW le spun jucătorilor lor:
 
 
-### „Noi am scris acest core”
+### „Noi am scris acest nucleu”
 
 Știri false. Nu contează câte modificări ați făcut „voi”. Cu toate acestea, ați început cu un proiect bazat pe MaNGOS.
 
@@ -172,13 +172,13 @@ Poate că ați făcut unele îmbunătățiri, dar majoritatea codului este înc�
 
 Poate că ești foarte bun și ai rescris majoritatea codului de-a lungul anilor. Totuși, ați început de la MaNGOS. Fără aceasta, în ziua 1 nici măcar nu ați avea funcția de conectare funcțională.
 
-### "Am fixat X"
+### "Am reparat X"
 
 În marea majoritate a cazurilor, niciunul dintre ei nu au remediat cu adevărat nimic.
 Tocmai au descărcat remedierile provenite de la comunitatea open source și le-au aplicat în nucleul lor.
 Cu toate acestea, iau toate creditele.
 
-### "Chiar am fixat X"
+### "Chiar am reparat X"
 
 Unele servere private chiar repară lucrurile pe cont propriu. De multe ori au echipe de dezvoltare dedicate care sunt plătite cu banii proveniți din donațiile jucătorilor.
 
