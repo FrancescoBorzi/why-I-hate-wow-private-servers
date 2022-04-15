@@ -20,6 +20,11 @@ This article is available in the following languages:
 
 **More translations are welcome!** You can submit new language versions via Pull Requests. ;)
 
+Video that explains the philosophy in this repository:
+
+- [🇬🇧 English](https://www.youtube.com/watch?v=YIiGOgNdGts)
+- [🇪🇸 Spanish](https://www.youtube.com/watch?v=sz4TSkCjQMU)
+
 ### Disclaimer for fellow developers
 
 IF YOU ARE A WOW EMULATION ENTHUSIAST, READ THIS BEFORE PROCEEDING:
