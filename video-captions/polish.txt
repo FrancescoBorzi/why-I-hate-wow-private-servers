@@ -1,0 +1,456 @@
+Fascynuje się emulacją WoW od 14 roku życia.
+
+0:00:15.232,0:00:18.602
+Pamiętam gdy pierwszy raz połączyłem się ze "specjalnym realmem"
+
+0:00:18.942,0:00:22.189
+było tam wiele bugów, ale przynajmniej mogłe grać za darmo.
+
+0:00:22.473,0:00:26.122
+Nie miałem złamanego grosza więc i także brak alternatywy.
+
+0:00:26.122,0:00:31.179
+W wieku 15 lat zacząłem się zastanawiać jak właściwie działąją prywatne serwery i jak w ogóle mogą istnieć
+
+0:00:31.179,0:00:33.808
+przede wszystkim z technicznego punktu widzenia.
+
+0:00:33.808,0:00:40.307
+Może ktoś ukrał kod Blizzardowi? Nie miałem pojęcia, gdyż byłem młody i niedoświadczony w tym temacie.
+
+0:00:40.307,0:00:43.488
+Mimo to zacząłem się tym interesować
+
+0:00:43.488,0:00:50.168
+z pomocą mojego starego przyjadziela Fabio, w końcu udało mi się zainstalować serwer WoWa na moim komputerze.
+
+0:00:50.168,0:00:54.847
+Wtedy jeszcze nie mogłem sobie wyobrazić ile satysfakcji będę miał
+
+0:00:54.847,0:00:59.211
+a także ilu rzeczy nauczę się dzięki temu magicznemu światu.
+
+0:00:59.211,0:01:03.624
+Może to zabrzmieć dziwnie, ale nawet teraz gdy jestem dorosły, świat tej gry dalej mnie fascynuje.
+
+0:01:03.624,0:01:09.606
+W tym momencie poświęciłem temu tematowi całą pracę magisterską z informatyki!
+
+0:01:11.038,0:01:12.072
+Ale nadal...
+
+0:01:12.072,0:01:16.785
+Nienawidzę większości prywatnych serwerów I bardzo chcę wyjąśnić dlaczego
+
+0:01:23.801,0:01:30.377
+Byś mógł zrozumieć mój punkt widzenia, przedstawię techniczny zarys jak działa WoW
+
+0:01:30.377,0:01:32.966
+i spróbuję przedstawić to w najprostszy sposób.
+
+0:01:32.966,0:01:38.809
+Na poziomie oprogramowania są dwa programy, których można traktować jako głównych aktorów gry:
+
+0:01:38.809,0:01:40.594
+APLIKACJA KLIENTA
+
+0:01:40.594,0:01:47.226
+którym jest "World of Warcraft", program zainstalowany na komputerze każdego gracza, który chce dołączyć do gry
+
+0:01:47.575,0:01:49.128
+APLIKACJA SERWERA
+
+0:01:49.128,0:01:52.633
+którym jest program uruchomiony na maszynie serwerowej.
+
+0:01:52.633,0:01:56.866
+Proces jest bardzo prosty, wszyscy klienci lub gracze
+
+0:01:56.866,0:02:02.162
+którzy wchodzą w interakcję między sobą łączą się do serwera. Klient zna adres serwera
+
+0:02:02.162,0:02:06.354
+gdyż jest przechowywany w sławnym "realmlist.wtf"
+
+0:02:06.354,0:02:11.361
+dlatego też jeżeli chcemy zmienić serwer na inny, musimy edytować ten plik.
+
+0:02:21.242,0:02:28.645
+Podczas gry na prywatnym serwerze, zasada działania jest taka sama. Różnica polega tylko na użytym oprogramowaniu.
+
+0:02:28.645,0:02:32.886
+KLIENT. Każdy ma dostęp do oryginalnego klienta World of Warcraft.
+
+0:02:32.886,0:02:36.513
+Z łatwością można go kupić wraz subskrypcją lub po prostu pobrać z sieci.
+
+0:02:36.513,0:02:42.115
+Program ten jest tym samym programem, którego byś użył grając na oficjalnym serwerze.
+
+0:02:42.115,0:02:48.654
+Oczywiście wiele prywatnych serweówy korzystają z różnych wersji klienta, ale zawsze odnoszą się do oryginalnego klienta.
+
+0:02:49.270,0:02:53.374
+Musisz tylko dokonać małej zmiany w "realmlist.wtf"
+
+0:02:53.374,0:02:58.550
+podmieniając adres oficjalnego serwera na ten, którego używa prywatny serwer.
+
+0:02:58.550,0:02:59.750
+To wszystko.
+
+0:03:01.265,0:03:07.178
+SERWER. Serwer jest kompletnie inny, Nikt spoza Blizzarda nie ma dostępu do oryginalnego oprogramowania,
+
+0:03:07.178,0:03:09.904
+z którego korzystają oficjalne serwery World of Warcraft.
+
+0:03:09.904,0:03:13.629
+Te aplikacje całkowicie różnią się od oryginału.
+
+0:03:18.465,0:03:23.568
+Every software that runs private servers have been created through the "reverse engineering" technique
+
+0:03:23.888,0:03:25.239
+which, in simple words, means
+
+0:03:31.128,0:03:35.741
+The question now is: who implemented this software and when did it happen?
+
+0:03:47.294,0:03:52.515
+Who creates the software applications that run WoW's private servers, and how do they do it?
+
+0:03:57.738,0:04:03.789
+You don't need to be an expert to understand that writing a server application for an MMORPG
+
+0:04:03.789,0:04:08.740
+with such a big scope like World of Warcraft is certainly not child's play
+
+0:04:08.740,0:04:12.580
+Blizzard is a big company with thousands of employees
+
+0:04:12.580,0:04:23.071
+Writing a program that "imitates" the operation of their server application is certainly not trivial or feasible for a single individual (or a small group of programmers).
+
+0:04:23.071,0:04:28.973
+And it's not just a matter of complexity. Let's think of very trivial but repetitive tasks, like:
+
+0:04:28.973,0:04:31.233
+adding every single NPC into the world
+
+0:04:31.233,0:04:36.067
+including every single item of their loot with its own percentage of chance
+
+0:04:36.067,0:04:38.001
+A huge amount of work...
+
+0:04:38.001,0:04:43.650
+Not to mention all the very complex tasks that require hours of study and testing
+
+0:04:43.650,0:04:45.437
+such as spell mechanics
+
+0:04:45.437,0:04:46.677
+boss mechanics
+
+0:04:46.677,0:04:47.473
+etc...
+
+0:04:48.972,0:04:56.125
+In short .... not even the best programmer in the world could be able to do all this work on her/his own.
+
+0:04:56.125,0:05:00.217
+Yet there are private servers, and the software that makes them run
+
+0:05:00.217,0:05:06.102
+And some private servers are now able to offer a game quality that is not far from the original one!
+
+0:05:06.102,0:05:08.787
+here I refer mainly to the old expansions
+
+0:05:08.787,0:05:10.574
+How is that possible?
+
+0:05:28.195,0:05:37.597
+Just to make it simple: an open source program is a program whose code is public.
+In the context of private servers, the open source plays a fundamental role
+
+0:05:37.597,0:05:43.851
+Some veteran gamers may remember that once the game quality on private servers was really bad
+
+0:05:43.851,0:05:46.151
+Almost nothing worked
+
+0:05:46.151,0:05:53.716
+For example, if you were a rogue in stealth you could be targeted by anyone who wrote /target Yourname
+
+0:05:53.716,0:05:57.336
+Guess which class I chose for my first character...
+
+0:06:06.316,0:06:09.503
+The real revolution was MaNGOS
+
+0:06:09.503,0:06:16.805
+It's an open source project created in 2005, whose purpose was to provide a server application for World of Warcraft
+
+0:06:16.805,0:06:23.254
+The great news of MaNGOS, as well as its strength, was the fact that as an open source application
+
+0:06:23.254,0:06:30.575
+its code was completely public, and any user from all over the world could study it and offer their own contribution
+
+0:06:30.575,0:06:36.525
+both in terms of adding or fixing game mechanics, but also in terms of reporting bugs
+
+0:06:37.815,0:06:43.448
+Only in this way, thanks to the contribution of many volunteers of different nationalities
+
+0:06:43.448,0:06:50.786
+it was possible to develop a server application capable of emulating World of Warcraft with a higher game quality.
+
+0:06:50.786,0:06:58.595
+In 2009 another important project was born TrinityCore
+
+0:06:58.595,0:07:05.775
+To this date, the overwhelming majority of private servers run on MaNGOS/TrinityCore-based applications.
+
+0:07:05.775,0:07:11.755
+Over the years, different projects were born, and they were based on the MaNGOS/TrinityCore code
+
+0:07:11.755,0:07:15.102
+which mainly vary according to the supported WoW version
+
+0:07:15.102,0:07:18.906
+For example AzerothCore for 3.3.5
+
+0:07:18.906,0:07:21.874
+OregonCore for 2.4.3
+
+0:07:21.874,0:07:24.808
+SkyFire for 5.4.8
+
+0:07:24.808,0:07:30.319
+ CMaNGOS for Classic/TBC/WOTLK, and many others
+
+0:07:30.319,0:07:33.412
+All of them based on MaNGOS and/or TrinityCore.
+
+0:07:33.412,0:07:38.142
+So the private servers have reached such a quality only thanks to the many contributors
+
+0:07:38.142,0:07:44.305
+who have implemented more and more game features over the years, from 2005 to this day
+
+0:07:47.067,0:07:50.687
+Apologies for the flashes, rendering problems.
+
+0:07:52.489,0:07:58.031
+Suppose that Alice and Bob have a private server each, and let's assume they are on the same version of the game
+
+0:07:58.031,0:08:08.085
+Both Alice and Bob want to release a new content to their players, which has been closed so far because the bosses A, B, C and D are quite buggy
+
+0:08:09.556,0:08:14.660
+Alice is a very good developer and can fix both A and B bosses
+
+0:08:15.479,0:08:19.668
+Bob is still a beginner and only fixes the boss C
+
+0:08:20.784,0:08:26.342
+In an ideal world, Alice and Bob work together and exchange their fixes.
+
+0:08:26.342,0:08:33.767
+As a result, both of their servers will have perfectly fixed bosses A, B and C
+
+0:08:33.767,0:08:40.395
+In addition, Alice and Bob will join forces in order to work on D as well.
+
+0:08:40.395,0:08:50.001
+As a result, the players on both servers are very happy. They dont have any problems with the bugs, since the developers are collaborating together in order to fix them
+
+0:08:52.616,0:08:54.270
+However, in the real world,
+
+0:08:54.270,0:08:58.192
+Alice and Bob are rivals and so they wage war against each other
+
+0:09:06.129,0:09:12.115
+In Alice's server, only bosses A and B work. While in Bob's server only C
+
+0:09:12.115,0:09:18.310
+Some players move from Bob's server to Alice's one. Bob's server closes after a while
+
+0:09:18.310,0:09:26.814
+Some of Alice's server players stop playing because they get tired of always doing only A and B because C and D don't work.
+
+0:09:27.417,0:09:30.937
+As a result, the players on both servers are unsatisfied
+
+0:09:31.888,0:09:35.199
+Alice made more money through player donations than Bob did
+
+0:09:37.027,0:09:44.899
+Actually, the MaNGOS/TrinityCore code (and their derivated projects) is released under the GNU GPL license.
+
+0:09:46.386,0:09:49.064
+In simple words, this license says the following:
+
+0:09:58.832,0:10:06.183
+Basically, the license of these projects requires those who use them to publish any changes to the public.
+
+0:10:07.357,0:10:12.222
+Of course, most private servers use this license as toilet paper
+
+0:10:12.222,0:10:18.985
+Otherwise, there should be no private server that is "better fixed" than others.
+
+0:10:19.469,0:10:27.346
+Here it is a list of lies that the administrators of many WoW private servers keep telling to their players
+
+0:10:29.479,0:10:36.066
+It doesn't matter how many changes "you" made. However, you started with a MaNGOS-based project
+
+0:10:36.066,0:10:42.465
+Maybe you've made some improvements, but most of the code is still MaNGOS or TrinityCore's
+
+0:10:43.060,0:10:47.637
+Maybe you are really good and you have rewritten most of the code over the years
+
+0:10:47.637,0:10:48.372
+Still!
+
+0:10:48.372,0:10:56.776
+you started from MaNGOS. Without it, on day 1 you wouldn't even have got the login feature working
+
+0:10:58.992,0:11:03.875
+In the vast majority of cases, none of them has really fixed anything
+
+0:11:03.875,0:11:11.083
+They have just downloaded the fixes coming from the open source community and applied them to their core
+
+0:11:11.083,0:11:14.142
+Still they take all credits.
+
+0:11:16.793,0:11:20.119
+Some private servers really fix stuff on their own.
+
+0:11:20.119,0:11:29.925
+They often have dedicated development teams that are paid with the money coming from players' donations.
+Most of them do not share these fixes with the development community.
+
+0:11:29.925,0:11:38.735
+Well, the community that gave FOR FREE the software you are using to run your server is asking you to share them
+
+0:11:38.735,0:11:41.123
+but you still keep it private
+
+0:11:46.356,0:11:55.632
+Alright dude. Try to think about this: if ALL the developers did what you do, neither you nor your private server would even exist
+
+0:11:57.184,0:12:02.706
+Simply because neither MaNGOS, TrinityCore, AzerothCore, etc... would exist!
+
+0:12:04.374,0:12:10.930
+These projects exist thanks to developers who, unlike you, shared their code.
+
+0:12:15.836,0:12:21.992
+There is nothing to "steal". They can't "steal" the code because it doesn't "belong" to you.
+
+0:12:22.584,0:12:25.328
+No, not even if you really wrote it.
+
+0:12:26.179,0:12:28.997
+The open source philosophy is clear:
+
+0:12:36.623,0:12:39.398
+Oh don't you agree? Alright.
+
+0:12:39.398,0:12:44.432
+Then don't use any open source code and write your own WoW emulator from scratch.
+
+0:12:53.840,0:13:02.670
+I totally understand that this whole story about ethics and licenses matters very little to the average World of Warcraft player
+
+0:13:02.670,0:13:12.152
+Players just want to play on a stable and well-fixed server, they don't care much whether this server collaborates with open source or not.
+
+0:13:12.152,0:13:16.641
+But... try for a moment to see it from another perspective
+
+0:13:16.641,0:13:23.046
+Developers of the open source projects basically don't care much about what private servers do
+
+0:13:23.046,0:13:30.720
+Of course, as a developer it pisses you off to see some random server administrator taking credits for your work
+
+0:13:30.720,0:13:38.148
+but in the end it doesn't change your life. Many open source developers just do it for fun and educational purposes
+
+0:13:38.148,0:13:45.698
+Actually, if ALL private servers collaborated with open source, the players’ lives would change completely!
+
+0:13:45.698,0:13:50.441
+every server would provide a much better game experience for any expansion
+
+0:13:50.441,0:13:55.486
+The example of Alice and Bob mentioned before can be applied to this case as well.
+
+0:13:55.486,0:13:58.866
+However, the reality is just that:
+
+0:13:58.866,0:14:04.596
+there are many private servers around the world, each of them always works on the same things,
+
+0:14:04.596,0:14:11.436
+racing to do them sooner and better. If they collaborated with each other instead,
+
+0:14:11.436,0:14:17.761
+they would avoid doing unnecessary work and would have more time and workforce
+
+0:14:19.195,0:14:22.213
+They would surely be able to achieve much more
+
+0:14:33.707,0:14:40.571
+If a private server closes, and its developers have not shared their work, that work will be lost forever
+
+0:14:40.571,0:14:49.512
+The most interesting thing is that all the MaNGOS-based projects are completely public, so it is possible to accurately verify who contributed to them.
+
+0:14:49.512,0:14:56.415
+all the contributors list of these projects are absolutely public and ANYONE can verify who actually fixed what
+
+0:14:56.415,0:15:03.738
+Any open source project (generally hosted on GitHub) has the list of commits realised by the different developers
+
+0:15:03.738,0:15:07.337
+For each commit, both the author and the date are there.
+
+0:15:07.337,0:15:13.780
+It is very easy to verify this information, just open the official repository of any emulator
+
+0:15:13.780,0:15:23.510
+Google for example "TrinityCore github" or "AzerothCore github" and just have a look. You will see who-does-really-what
+
+0:15:23.510,0:15:31.931
+You will see all the lines of code, their authors, other devs’ comments, etc. You will see everything. No more lies!
+
+0:15:31.931,0:15:36.674
+if you agree with this philosophy, you may be interested to join ChromieCraft
+
+0:15:36.674,0:15:44.933
+because it's a NO-profit server developed by volunteers that share 100% of their work with AzerothCore
+
+0:15:44.933,0:15:50.362
+the open-source project behind the emulation of WoW 3.3.5a
+
+0:15:50.362,0:15:58.668
+I've tried to explain things here as simple as possible, so what you are going to read might not be 100% technically accurate/detailed
+
+0:15:58.668,0:16:04.363
+but I really did my best to put things in simple words in order to make it understandable for non-developers.
+
+0:16:04.363,0:16:06.714
+Links will be provided in the description
+
+0:16:06.714,0:16:08.999
+Thank you for listening, and have a wonderful day...
