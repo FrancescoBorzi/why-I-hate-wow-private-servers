@@ -1,8 +1,8 @@
-# Dlaczego nienawidzę większośći prywatnych serwerów WoW
+# Dlaczego nienawidzę większości prywatnych serwerów WoW
 
 *Napisane przez Francesco Borzi' aka Shin*
 
-Dlaczego jest wciąż tak wiele bugów, błędów w prywatnych serwerach WoWa, mimo że istnieją od tak wielu lat?
+Dlaczego jest wciąż tak wiele błędów w prywatnych serwerach WoW-a, mimo że istnieją od tak wielu lat?
 
 ![Wow-facepalm](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-facepalm.jpeg)
 
@@ -11,23 +11,23 @@ Chcę po prostu wyjaśnić, dlaczego nienawidzę większości prywatnych serwer�
 
 ## Wprowadzenie
 
-Byłem zafascynowany emulacją WoWa odkąd skończyłem 14 lat. Pamiętam, gdy dołączyłem po raz pierwszy do jednego z tych "specjalnych realmów" - było mnóstwo bugów, ale przynajmniej mogłem grać za darmo. Wiesz, nie miałem wtedy złamanego grosza, więc nie miałem żadnej alternatywy. 
+Byłem zafascynowany emulacją WoW-a, odkąd skończyłem 14 lat. Pamiętam, gdy dołączyłem po raz pierwszy do jednego z tych "specjalnych realmów" - było mnóstwo bugów, ale przynajmniej mogłem grać za darmo. Wiesz, nie miałem wtedy złamanego grosza, więc nie miałem żadnej alternatywy. 
 
-Mając 15 lat zacząłem się zastanawiać, w jaki sposób prywatne serwery działają i mogą istnieć, szczególnie z technicznego punktu widzenia. Czy ktoś może ukradł kod od [Blizzard](https://pl.wikipedia.org/wiki/Blizzard_Entertainment)? Nie miałem pojęcia - byłem młody i niedoświadczony! Mimo to zacząłem próbować i z pomocą mojego starego przyjaciela (Fabio) udało mi się zainstalować serwer WoWa na moim własnym komputerze.
+Mając 15 lat, zacząłem się zastanawiać, w jaki sposób prywatne serwery działają i mogą istnieć, szczególnie z technicznego punktu widzenia. Czy ktoś może ukradł kod od [Blizzarda](https://pl.wikipedia.org/wiki/Blizzard_Entertainment)? Nie miałem pojęcia - byłem młody i niedoświadczony! Mimo to zacząłem próbować i z pomocą mojego starego przyjaciela (Fabio) udało mi się zainstalować serwer WoW-a na moim własnym komputerze.
 
 W tamtym czasie nie byłem w stanie sobie wyobrazić, ile satysfakcji będę miał i ilu rzeczy będę mógł nauczyć się dzięki temu magicznemu światu.
 
-Może to zabrzmieć dziwnie, ale ten świat fascynuje mnie również teraz, gdy jestem dorosły. Do tego stopnia, że poświęciłem mu [pracę magisterską z Informatyki](https://community.trinitycore.org/topic/13025-just-thank-you-wow-emulation).
+Może to zabrzmieć dziwnie, ale ten świat fascynuje mnie również teraz, gdy jestem dorosły. Do tego stopnia, że poświęciłem mu [pracę magisterską z informatyki](https://community.trinitycore.org/topic/13025-just-thank-you-wow-emulation).
 
 ![praca-magisterska-z-emulacji-wow](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-emulation-thesis.jpeg)
 
-Niemniej, wciąż: **Nienawidzę większości prywatnych serwerów i bardzo chcę wytłumaczyć dlaczego.**
+Niemniej, wciąż: **Nienawidzę większości prywatnych serwerów i bardzo chcę wytłumaczyć, dlaczego.**
 
 ## Kilka pojęć technicznych
 
 ![Wow-sleeping](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-sleeping.jpg)
 
-Aby wytłumaczyć mój punkt widzenia będę musiał wtrącić swoje trzy grosze o tym, jak działa WoW. Postaram się to wytłumaczyć w kilku prostych słowach.
+Aby wytłumaczyć mój punkt widzenia, będę musiał wtrącić swoje trzy grosze o tym, jak działa WoW. Postaram się to wytłumaczyć w kilku prostych słowach.
 
 ### Jak działa oryginalny World of Warcraft
 
@@ -37,17 +37,17 @@ Na poziomie oprogramowania - są dwa programy, które pełnią kluczowe funkcje:
 
 - **APLIKACJA SERWEROWA** - czyli program który jest uruchamiany na serwerach.
 
-Cały proces jest bardzo prosty - wszyscy Klienci (gracze) podłączają się do serwera, by wchodzić w interakcje między sobą. Klient gry wie jaki jest adres serwera, bo jest on przechowywany w sławnym już pliku "**realmlist.wtf**"  (dlatego właśnie musisz edytować ten plik, aby podłączyć się do innego serwera).
+Cały proces jest bardzo prosty - wszyscy Klienci (gracze) podłączają się do serwera, by wchodzić w interakcje między sobą. Klient gry wie, jaki jest adres serwera, bo jest on przechowywany w sławnym już pliku "**realmlist.wtf**"  (dlatego właśnie musisz edytować ten plik, aby podłączyć się do innego serwera).
 
 ![Client-server](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/client-server.png)
 
-### Jak działają serwery prywatne WoWa?
+### Jak działają serwery prywatne WoW-a?
 
-Gdy grasz na serwerach prywatnych, zasada jest dokładnie taka sama. Różnica jest w oprogramowaniu z którego korzystasz
+Gdy grasz na serwerach prywatnych, zasada jest dokładnie taka sama. Różnica jest w oprogramowaniu, z którego korzystasz
 
 ![Wow-Defias](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-defias.jpg)
 
-**KLIENT**. Każdy ma dostęp do oryginalnego klienta World of Warcraft. Możesz go łatwo zdobyć kupując go lub pobierając z internetu. Jest to ten sam program, z którego byś korzysta(ł/ła) chcąc grać na oficjalnym serwerze. Rzecz jasna, różne serwery prywatne mają różne wersje klienta, ale zawsze odnoszą się do oryginalnego klienta gry. Musisz jedynie dokonać małej zmiany w pliku "realmlist.wtf" przez zmianę adresu oryginalnego serwera na adres serwera prywatnego. Tyle.
+**KLIENT**. Każdy ma dostęp do oryginalnego klienta World of Warcraft. Możesz go łatwo zdobyć, kupując go lub pobierając z internetu. Jest to ten sam program, z którego byś korzysta(ł/ła), chcąc grać na oficjalnym serwerze. Rzecz jasna, różne serwery prywatne mają różne wersje klienta, ale zawsze odnoszą się do oryginalnego klienta gry. Musisz jedynie dokonać małej zmiany w pliku "realmlist.wtf" przez zmianę adresu oryginalnego serwera na adres serwera prywatnego. Tyle.
 
 **SERWER**. Tutaj sprawa ma się całkowicie inaczej. Nikt spoza Blizzarda nie ma dostępu do oryginalnego oprogramowania, na którym działają oficjalne serwery World of Warcraft. Więc te aplikacje są całkowicie inne niż oryginalna.
 
@@ -55,7 +55,7 @@ Gdy grasz na serwerach prywatnych, zasada jest dokładnie taka sama. Różnica j
 
 ![Reverse engineering](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/reverse-engineering.jpeg)
 
-Każde oprogramowanie uruchamiające prywatny serwer powstało poprzez "inżynierię wsteczną" czyli technikę, która w prostych słowach oznacza - "Próboję napisać program, który imituje zachowanie innego programu, ale bez patrzenia na oryginalny kod."
+Każde oprogramowanie uruchamiające prywatny serwer powstało poprzez "inżynierię wsteczną" czyli technikę, która w prostych słowach oznacza - "Próbuję napisać program, który imituje zachowanie innego programu, ale bez patrzenia na oryginalny kod."
 
 Pytanie jest następujące: kto zaimplementował to oprogramowanie i kiedy to się stało?
 
@@ -66,7 +66,7 @@ Pytanie jest następujące: kto zaimplementował to oprogramowanie i kiedy to si
 
 ## Aplikacje serwerowe nieoficjalnych serwerów WoW
 
-Kto tworzy oprogramowanie serwerowe (potocznie nazywane emulatorem) dzięki któremu można uruchomić prywatny serwer WoW? I jak oni to zrobili?
+Kto tworzy oprogramowanie serwerowe (potocznie nazywane emulatorem), dzięki któremu można uruchomić prywatny serwer WoW? I jak on to zrobił?
 
 
 
@@ -74,7 +74,7 @@ Kto tworzy oprogramowanie serwerowe (potocznie nazywane emulatorem) dzięki któ
 
 ![Complex](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/complex.jpg)
 
-Nie musisz być ekspertem aby zrozumieć, że napisanie aplikacji serwerowej dla gry MMORPG o tak dużym zasięgu jak World of Warcraft, nie jest dziecięcą igraszką.
+Nie musisz być ekspertem, aby zrozumieć, że napisanie aplikacji serwerowej dla MMORPG o tak dużym zasięgu, jak World of Warcraft, nie jest dziecięcą igraszką.
 
 Blizzard jest dużą firmą z tysiącami pracowników. Napisanie programu, który imituje działanie ich aplikacji serwerowej, zdecydowanie nie jest trywialne i wykonalne dla pojedynczej osoby (lub małej grupy programistów).
 
@@ -82,7 +82,7 @@ Nie jest to tylko kwestia złożoności. Pomyślmy o każdej bardzo trywialnej, 
 
 Po krótce - nawet najlepszy programista na świecie nie byłby w stanie zrobić całej tej pracy samodzielnie.
 
-Wciąż serwery prywatne istnieją i oprogramowanie do ich uruchomienia również. Niektóre serwery prywatne są teraz w stanie zaoferować jakość rozgrywki nie odbiegającą wiele od oryginału (tutaj odwołuję się głównie do starych dodatków).
+Jednak serwery prywatne istnieją i oprogramowanie do ich uruchomienia również. Niektóre serwery prywatne są teraz w stanie zaoferować jakość rozgrywki nieodbiegającą wiele od oryginału (tutaj odwołuję się głównie do starych dodatków).
 
 Jak jest to możliwe?
 
@@ -94,21 +94,21 @@ Upraszczając: program otwartoźródłowy to taki, którego kod jest publiczny.
 
 W kontekście serwerów prywatnych, otwarte źródła pełnią kluczową rolę.
 
-Niektórzy gracze-weterani mogą pamiętać, że niegdyś jakość gry na prywatnych serwerach pozostawiała wiele do życzenia. Prawie nic nie działało. Na przykład jeśli grałeś roguem w stealth mogłeś zostać stargetowany przez każdą osobę, która wpisała `/target Twojeimie`. Zgadnij, którą klasę wybrałem dla mojej pierwszej postaci...
+Niektórzy gracze-weterani mogą pamiętać, że niegdyś jakość gry na prywatnych serwerach pozostawiała wiele do życzenia. Prawie nic nie działało. Na przykład jeśli grałeś rogue'em w stealth mogłeś zostać stargetowany przez każdą osobę, która wpisała `/target TwojeImie`. Zgadnij, którą klasę wybrałem dla mojej pierwszej postaci...
 
 ![Mangos-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/mangos-logo.gif)
 
-Prawdziwą rewolucją okazał się [MaNGOS](https://it.wikipedia.org/wiki/MaNGOS), czyli open-sourceowy projekt powstały w 2005, którego celem było stworzenie serwera (aplikacji) World of Warcraft.
+Prawdziwą rewolucją okazał się [MaNGOS](https://it.wikipedia.org/wiki/MaNGOS), czyli open-source'owy projekt powstały w 2005, którego celem było stworzenie serwera (aplikacji) World of Warcraft.
 Wspaniałą wiadomością o MaNGOS, poza jego siłą, był fakt, że był on aplikacją otwartoźródłową. Jego kod był całkowicie publiczny i każdy użytkownik na świecie mógł przestudiować go i zaoferować swój wkład (zarówno w kontekście dodawania lub naprawy mechanik, ale także przy raportowaniu bugów).
 
 
-Jedynie w ten sposób, dzięki udziałowi wielu wolontariuszy z różnych krajów, było możliwe stworzenie aplikacji serwerowej, która będzie w stanie emulować World of Warcraft zapewniając wyższą jakość rozgrywki.
+Jedynie w ten sposób, dzięki udziałowi wielu wolontariuszy z różnych krajów, było możliwe stworzenie aplikacji serwerowej, która będzie w stanie emulować World of Warcraft, zapewniając wyższą jakość rozgrywki.
 
 W 2009 roku powstał inny, bazujący na MaNGOS, emulator - [TrinityCore](https://www.trinitycore.org/).
 
 ![Trinitycore-logo](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/trinitycore-logo.png)
 
-Do dziś dnia znaczna większość prywatnych serwerów korzysta z oprogramowania bazującego na MaNGOS/TrinityCore.
+Do dziś znaczna większość prywatnych serwerów korzysta z oprogramowania bazującego na MaNGOS/TrinityCore.
 
 Przez lata powstawały [różne projekty](http://mangosrumors.org/best-wow-emulator-2020/) i bazowały one na kodzie MaNGOS/TrinityCore, różniąc się głównie wspieraną wersją WoW. 
 Na przkład [AzerothCore](https://www.azerothcore.org/) dla 3.3.5, [OregonCore](https://github.com/OregonCore) dla 2.4.3, [SkyFire](https://www.projectskyfire.org/) dla 5.4.8, [CMaNGOS](https://cmangos.net/) dla Classic/TBC/WOTLK, oraz wiele innych... Bazujących na MaNGOS i/lub TrinityCore.
@@ -119,7 +119,7 @@ Na przkład [AzerothCore](https://www.azerothcore.org/) dla 3.3.5, [OregonCore](
 
 Prywatne serwery osiągnęły obecną jakość jedynie dzięki udziałowi wielu współautorów (contributors), którzy na przestrzeni lat (od 2005 do dzisiaj) zaimplementowali coraz więcej funkcjonalności.
 
-Dzisiaj każdy doświadczony użytkownik komputera, nie będący programistą może z łatwością zainstalować serwer WoW.
+Dzisiaj każdy doświadczony użytkownik komputera, niebędący programistą, może z łatwością zainstalować serwer WoW.
 
 ## Open source vs serwery prywatne
 
@@ -128,7 +128,7 @@ Dzisiaj każdy doświadczony użytkownik komputera, nie będący programistą mo
 ### Hipotetyczny scenariusz
 
 Załóżmy, że zarówno Alice i Bob mają swój prywatny serwer WoW. Załóżmy również, że korzystają z tej samej wersji gry.
-Zarówno Alice, jak i Bob chcą wypuścić nową zawartość (content) dla swoich graczy, która dotychczas była niedostępna bo bossy `A`, `B`, `C` oraz `D` były zbugowane.
+Zarówno Alice, jak i Bob chcą wypuścić nową zawartość (content) dla swoich graczy, która dotychczas była niedostępna, bo bossy `A`, `B`, `C` oraz `D` były zbugowane.
 
 - Alice jest bardzo dobrą programistką i potrafi naprawić bossa `A` oraz `B`
 - Bob jest wciąż początkującym programistą i naprawił jedynie bossa `C`.
@@ -145,14 +145,14 @@ Ostatecznie gracze na obu serwerach są zadowoleni, bo grają na w pełni napraw
 Alice i Bob rywalizują ze sobą i ich serwery walczą między sobą. Na serwerze Alice działają jedynie bossy `A` i `B`. Tymczasem na serwerze Boba jedynie boss `C`.
 Niektórzy gracze z serwera Boba przenoszą się na serwer Alice. Sewer Boba zamyka się po jakimś czasie. Niektórzy gracze Alice przestali grać, ponieważ mieli dość robienia jedynie bossów `A` oraz `B`, ponieważ bossy `C` oraz `D` nie działają.
 
-W wyniku powyższego, gracze na obu serwerach są mniej szczęśliwi niż w poprzednim scenariuszu. Alice zarobiła więcej pieniędzy poprzez dotacje niż zarobił Bob.
+W wyniku powyższego, gracze na obu serwerach są mniej szczęśliwi niż w poprzednim scenariuszu. Alice zarobiła więcej pieniędzy poprzez dotacje, niż zarobił Bob.
 
 ### Licencja emulatorów WoWa
 
 W zasadzie, kod MaNGOS/TrinityCore (oraz pochodzących od nich rpoejtków) jest wypuszczony pod [licencją GNU GPL](https://pl.wikipedia.org/wiki/GNU_General_Public_License).
 
 W uproszczeniu treść licencji brzmi: używaj kodu jak ci się podoba, bez płacenia za niego, tak długo jak zmiany do tego kodu są wypuszczane pod tą samą licencją.
-Reasumując - licencja tych projektów wymaga od użytkowników by upublicznili i udostępnili swoje zmiany w kodzie.
+Reasumując - licencja tych projektów wymaga od użytkowników, by upublicznili i udostępnili swoje zmiany w kodzie.
 
 Oczywiście, większość serwerów używa tej licencji jako **papieru toaletowego**. W przeciwnym wypadku, nie byłoby serwera "lepiej naprawionego" niż inne.
 
@@ -192,10 +192,10 @@ Cóż, społeczność, która dała (za darmo) oprogramowanie, z którego korzys
 
 ### "Nie dzielę się nimi, bo chcę by mój serwer był wyjątkowy, lepszy niż inne."
 
-Fantastycznie mistrzu. To teraz pomyśl o tym: jeśli WSZYSCY programiści zrobiliby tak jak ty, to ani ty, ani twój praywatny serwer by nie istniały.
+Fantastycznie mistrzu. To teraz pomyśl o tym: jeśli WSZYSCY programiści zrobiliby tak jak ty, to ani ty, ani twój prywatny serwer by nie istniały.
 
 Dlaczego? A dlatego, że ani MaNGOS (ani TrinityCore, AzerothCore, etc ...) by nie istniały.
-Te projekty istnieją dzięki programistom którzy, w przeciwieństwie do Ciebie, dzielą się swoim kodem.
+Te projekty istnieją dzięki programistom którzy, w przeciwieństwie do ciebie, dzielą się swoim kodem.
 
 Jeśli wszyscy programiści nie upublicznialiby swojego kodu, nie mielibyśmy żadnego sensownego emulatora WoWa, a ty nie mógłbyś otworzyć swojego prywatnego serwera, bo nie miałbyś na czym bazować.
 
@@ -213,12 +213,12 @@ Oh, nie zgadzasz się? W porządku. To nie używaj żadnego otwartoźródłowego
 ![Wow-Dranei-crying](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-dranei-crying.jpg)
 
 Zdaję sobie sprawę, że ta cała historia o etyce i licencjach znaczy bardzo niewiele dla przeciętnego gracza World of Warcraft.
-Gracze po prostu chcą grać na stabilnym i dobrze załatanym serwerze. Nie obchodzi ich za bardzo czy serwer współpracuje z społecznością open-source czy nie.
+Gracze po prostu chcą grać na stabilnym i dobrze załatanym serwerze. Nie obchodzi ich za bardzo, czy serwer współpracuje z społecznością open-source, czy nie.
 
 Ale... spróbuj spojrzeć na to z innej perspektywy.
 
-Developerów projektów open-source (MaNGOS, TrinityCore, AzerothCore, etc ...) nie obchodzi co robią serwery prywatne.
-Oczywiście, jako developera wkurza Cię gdy jakiś przypadkowy admin serwera przypisuje sobie Twoją pracę, ale ostatecznie nie zmienia to Twojego życia.
+Developerów projektów open-source (MaNGOS, TrinityCore, AzerothCore, etc ...) nie obchodzi, co robią serwery prywatne.
+Oczywiście, jako developera wkurza Cię, gdy jakiś przypadkowy admin serwera przypisuje sobie Twoją pracę, ale ostatecznie nie zmienia to Twojego życia.
 Wielu programistów robi to dla zabawy i chęci rozwoju.
 
 Jeśli WSZYSTKIE serwery prywatne współpracowałyby w duchu open-source, to życia graczy by się zmieniły całkowicie.
@@ -227,7 +227,7 @@ Wiecie, w tym przypadku każdy serwer mógłby dostarczyć dużo lepsze doświad
 Rzeczywitość jest taka: jest mnóstwo serwerów prywatnych dookoła świata, każdy z nich pracuje nad tymi samymi problemami, ścigając się w tym, kto napisze poprawkę szybciej i lepiej.
 Jeśli współpracowaliby ze sobą zamiast rywalizować, uniknęliby niepotrzebnej pracy i mieliby więcej czasu oraz mocy przerobowych. Zdecydowanie mogliby osiągnąć dużo więcej.
 
-*Note: jakość (i rywalizacja) prywatnych serwerów nie powinny polegać (tylko) na naprawianiu, ale również innych czynnikach - takich jak umięjętności zarządzających nimi administratorów. Jakość społeczności pełni fundamentalną rolę, dokładnie tak jak na serwerach Blizzarda (które są równe z technicznego punktu widzenia).*
+*Notka: jakość (i rywalizacja) prywatnych serwerów nie powinny polegać (tylko) na naprawianiu, ale również innych czynnikach - takich jak umięjętności zarządzających nimi administratorów. Jakość społeczności pełni fundamentalną rolę, dokładnie tak jak na serwerach Blizzarda (które są równe z technicznego punktu widzenia).*
 
 Jeśli prywatny serwer się zamyka, a jego developerzy nie podzielą się swoją pracą, to ich praca przepada na zawsze.
 
@@ -235,9 +235,9 @@ Jeśli prywatny serwer się zamyka, a jego developerzy nie podzielą się swoją
 
 ### Oficjalna lista twórców
 
-Najbardziej interesującą rzeczą jest to, że wszystkie projekty bazujące na MaNGOS są w pełni pulbiczne, zatem możliwe jest bardzo dokładne sprawdzenie kto kontrybuował do nich.
+Najbardziej interesującą rzeczą jest to, że wszystkie projekty bazujące na MaNGOS są w pełni publiczne, zatem możliwe jest bardzo dokładne sprawdzenie, kto kontrybuował do nich.
 
-W związku z powyższym - listy wszystkich kontrybutorów tych projektów są całkowicie publiczne i KAŻDY jest w stanie sprawdzić kto i co naprawił.
+W związku z powyższym - listy wszystkich kontrybutorów tych projektów są całkowicie publiczne i KAŻDY jest w stanie sprawdzić, kto i co naprawił.
 
 Dla przykładu:
 
@@ -249,16 +249,16 @@ PS: Możesz znaleźć autora tego artykułu na każdej z tych list.
 
 ### Lista oficjalnych commitów
 
-Każdy projekt otwartoźródłowy (generalnie - hostowany na GitHubie) posiada listę commitów zrealizowanych przez różnych programistów. Każdy commit posiada informację o autorze i dacie kiedy został wykonany. 
+Każdy projekt otwartoźródłowy (generalnie - hostowany na GitHubie) posiada listę commitów zrealizowanych przez różnych programistów. Każdy commit posiada informację o autorze i dacie, kiedy został wykonany. 
 
-Jest bardzo łatwo zweryfikować takie informacje - otwórz oficjalne repozytorium danego emulatora. Na przykład wyszukaj w google "TrinityCore github" albo "AzerothCore github" i spójrz.
+Jest bardzo łatwo zweryfikować takie informacje - otwórz oficjalne repozytorium danego emulatora. Na przykład wyszukaj w Google "TrinityCore github" albo "AzerothCore github" i spójrz.
 
 Zobaczysz, kto się czym zajmuje. Zobaczysz wszystkie linie kodu, ich autorów, komentarze innych deweloperów itd. Zobaczysz wszystko. Koniec z kłamstwami!
 
 
 ## Co mogę zrobić jako gracz?
 
-Moja rada to: graj i wspieraj serwery prywatne, które współpracują z środowiskami open-source, niezależnie od dodatku czy emulatora z którego korzystają. 
+Moja rada to: graj i wspieraj serwery prywatne, które współpracują z środowiskami open-source, niezależnie od dodatku czy emulatora, z którego korzystają. 
 
 Albo przynajmniej unikaj serwerów które rozpuszczają plotki, przypisując sobie cudzą pracę i usuwając informacje o oryginalnych autorach.
 
