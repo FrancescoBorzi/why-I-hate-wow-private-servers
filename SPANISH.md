@@ -177,7 +177,7 @@ Tal vez eres muy buen programador y quizá hayas reescrito la mayor parte del c�
 
 ### Hemos arreglado "x" bug.
 
-En la gran mayoría de los casos, ninguno de ellos ha arreglado realmente nada. Acaban de descargar las correcciones provenientes de la comunidad de código abierto y psoteriormente las han implementado dentro de su emulador. Aún así se llevan todos los créditos. Esto último es muy fácil de desmentir realmente. Si sos jugador de wow, podrás observar que prácticamente ningún servidor, tiene los créditos de la comunidad que lo ayuda a llevar adelante el proyecto. Incluso, muchos de ellos, se desesperan por eliminar dichos créditos mediante diferentes pretextos.
+En la gran mayoría de los casos, ninguno de ellos ha arreglado realmente nada. Acaban de descargar las correcciones provenientes de la comunidad de código abierto y posteriormente las han implementado dentro de su emulador. Aún así se llevan todos los créditos. Esto último es muy fácil de desmentir realmente. Si sos jugador de wow, podrás observar que prácticamente ningún servidor, tiene los créditos de la comunidad que lo ayuda a llevar adelante el proyecto. Incluso, muchos de ellos, se desesperan por eliminar dichos créditos mediante diferentes pretextos.
 
 ### "Nosotros (realmente) arreglamos X"
 
