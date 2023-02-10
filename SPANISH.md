@@ -218,7 +218,7 @@ La filosofía del código abierto es clara: puedes usar ese código de forma gra
 ![Wow-Dranei-crying](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-dranei-crying.jpg)
 
 Comprendo que toda esta historia sobre la ética y las licencias importa muy poco al jugador promedio de World of Warcraft.
-Al final, son los mismos jugadores quienes solamente buscan jugar en el servidor más estable y medianamente funcional que se topen por ahí, no les importa realmente mucho si ese servidor en particular colabora con el código abierto o no.
+Al final, son los mismos jugadores quienes simplemente buscan jugar en el servidor más estable y medianamente funcional que se topen por ahí, no les importa realmente mucho si ese servidor en particular colabora con el código abierto o no.
 
 Sin embargo... intenta, así sea por un momento verlo desde otra perspectiva.
 
