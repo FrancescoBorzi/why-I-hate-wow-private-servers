@@ -1,13 +1,15 @@
 # Por qué odio la mayoría de servidores privados del WoW
 
-**Escrito originalmente por Francesco Borzi | alias Shin**
-**Editado y traducido por Pagani Walter | Stevej y Mathematical**
+- Escrito originalmente por Francesco Borzi | alias Shin
+- Editado y traducido por Pagani Walter | Stevej
+- Editado y traducido por Mathematical
 
 ¿Por qué hay todavía tantos errores en los servidores privados del WoW, a pesar de que han existido durante tantos años?
 
 ![Wow-facepalm](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/wow-facepalm.jpeg)
 
 No te preocupes, esta no es una típica conferencia acerca de los Derechos de Autor de Blizzard.
+
 Sólo quiero explicar el motivo de por qué odio la mayoría de los servidores privados de [World of Warcraft](https://es.wikipedia.org/wiki/World_of_Warcraft).
 
 (Y con "odio" no me refiero en un sentido literal, sino meramente metafórico)
@@ -189,18 +191,18 @@ Bueno, la licencia GPL del software que estás usando para ejecutar tu servidor 
 
 ### Eliminamos los créditos por un tema de seguridad. **(Stevej)**
 
-Con la excusa de ocultar los créditos, muchas personas argumentan, que si los jugadores conocieran de antemano el emulador que se usa en su comunidad, podrían hacer uno de los diferentes errores que han sido reportados pero no arreglados por la misma. Entonces, justifican no exponer dichos créditos por ese motivo. Luego cuando tienen un ataque de DDoS corren desesperados a los brazos de las comunidades para pedir ayuda / soporte.
+Con la excusa de ocultar los créditos y no darle el reconocimiento a las comunidades que lo trabajan, muchas personas argumentan, que si los jugadores conocieran de antemano el emulador que se usa en su comunidad, algunas personas podrían hacer uso de los diferentes errores que han sido reportados pero no arreglados por la misma. Entonces, justifican no exponer dichos créditos por ese motivo. Luego cuando tienen un ataque de DDoS corren desesperados a los brazos de las comunidades para pedir ayuda / soporte.
 
 ![Pinocchio](https://raw.githubusercontent.com/FrancescoBorzi/why-I-hate-wow-private-servers/master/img/pinocchio.jpeg)
 
 ## Las supuestas 'justificaciones' de los servidores privados
-
 
 ### "Los mantengo en privado para hacer de mi servidor un lugar especial, mejor que los otros"
 
 Muy bien, campeón. Intenta pensar en esto: si TODOS los desarrolladores hicieran lo mismo, ni tú ni tu servidor privado podrían funcionar en primer lugar.
 
 ¿Por qué? Simplemente porque ni MaNGOS (ni TrinityCore, AzerothCore, etc...) existirían como tal.
+
 **Estos proyectos existen gracias a los desarrolladores que, a diferencia de ti, sí compartieron su código.**
 
 Si todos los desarrolladores mantuvieran su código en privado, no tendríamos un solo emulador del WoW medianamente decente y tú tampoco podrías abrir tu servidor privado, ya que no habría ningún software disponible.
