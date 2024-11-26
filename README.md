@@ -23,7 +23,6 @@ This article is available in the following languages:
 Video that explains the philosophy in this repository:
 
 - [🇬🇧 English](https://www.youtube.com/watch?v=YIiGOgNdGts)
-- [🇪🇸 Spanish](https://www.youtube.com/watch?v=sz4TSkCjQMU)
 
 ### Disclaimer for fellow developers
 
